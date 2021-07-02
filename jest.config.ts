@@ -1,26 +1,26 @@
 export default {
   transform: {
-    '^.+\\.tsx?$': 'ts-jest',
+    '^.+\\.tsx?$': 'ts-jest'
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   clearMocks: true,
   collectCoverage: true,
   coverageDirectory: 'coverage',
   coveragePathIgnorePatterns: [
-    '/node_modules/',
+    '/node_modules/'
   ],
   coverageProvider: 'babel',
   coverageReporters: [
     'json',
     'text',
     'lcov',
-    'clover',
+    'clover'
   ],
   testPathIgnorePatterns: [
-    '/node_modules/',
+    '/node_modules/'
   ],
   setupFilesAfterEnv: [
-    '<rootDir>/jest.setup.ts',
+    '<rootDir>/jest.setup.ts'
   ],
-  testEnvironment: 'jsdom',
-};
+  testEnvironment: 'jsdom'
+}

@@ -8,17 +8,17 @@ const palette = {
   red: '#EB5757',
   redLight: '#FCE4E4',
   warning: '#DD9900',
-  warningLight: '#FEF1D8',
+  warningLight: '#FEF1D8'
 }
 
 const theme = {
-  palette: {
+  colors: {
     primaryColor: palette.purple,
     primaryColorMedium: palette.purpleMedium,
     primaryColorLight: palette.purpleLight,
     primaryColorDark: palette.purpleDark,
-    ...palette,
-  },
+    ...palette
+  }
 }
 
 export default theme

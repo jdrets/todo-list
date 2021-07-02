@@ -12,9 +12,6 @@
     "test": "jest --env=jsdom",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-  },
   "license": "ISC",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.12.0",

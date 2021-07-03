@@ -3,13 +3,13 @@
 exports[`<List /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-gtssRu dpeqWW"
+    class="sc-gtssRu iHmUJu"
   >
     <div
-      class="sc-dlnjPT knVaoF"
+      class="sc-dlnjPT iOgCVl"
     >
       <div
-        class="sc-hKFyIo eCaFgl"
+        class="sc-hKFyIo kmvFYq"
       >
         <span
           class="sc-bdnylx kpuqbH"
@@ -52,10 +52,10 @@ exports[`<List /> should match with snapshot 1`] = `
       </div>
     </div>
     <div
-      class="sc-dlnjPT knVaoF"
+      class="sc-dlnjPT iOgCVl"
     >
       <div
-        class="sc-hKFyIo eCaFgl"
+        class="sc-hKFyIo kmvFYq"
       >
         <span
           class="sc-bdnylx kpuqbH"
@@ -88,10 +88,10 @@ exports[`<List /> should match with snapshot 1`] = `
       </div>
     </div>
     <div
-      class="sc-dlnjPT knVaoF"
+      class="sc-dlnjPT iOgCVl"
     >
       <div
-        class="sc-hKFyIo eCaFgl"
+        class="sc-hKFyIo kmvFYq"
       >
         <span
           class="sc-bdnylx kpuqbH"

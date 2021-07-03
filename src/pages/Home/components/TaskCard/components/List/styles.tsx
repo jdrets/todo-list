@@ -28,7 +28,7 @@ export const ItemIconWrapper = styled.div`
   margin-left: -3px;
   
   svg {
-    fill: ${theme.colors.gray}
+    fill: ${theme.colors.gray};
     height: 16px;
     width: auto;
   }

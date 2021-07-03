@@ -3,7 +3,7 @@
 exports[`<PageWrapper /> should match with snapshot 1`] = `
 <div>
   <section
-    class="sc-bdnylx bnSrov"
+    class="sc-bdnylx jACAPs"
   >
     Main wrapper
   </section>

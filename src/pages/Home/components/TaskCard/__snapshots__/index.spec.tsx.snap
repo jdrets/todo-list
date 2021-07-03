@@ -6,13 +6,13 @@ exports[`<TaskCard /> should match with snapshot 1`] = `
     class="sc-bdnylx jafSpd"
   >
     <div
-      class="sc-eCApGN izKOkY"
+      class="sc-eCApGN biFMTw"
     >
       <div
-        class="sc-jSFkmK eHHhhr"
+        class="sc-jSFkmK ikJtKn"
       >
         <div
-          class="sc-gKAblj fBAhIO"
+          class="sc-gKAblj fWNjKB"
         >
           <span
             class="sc-hKFyIo jqsNzg"
@@ -55,10 +55,10 @@ exports[`<TaskCard /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-jSFkmK eHHhhr"
+        class="sc-jSFkmK ikJtKn"
       >
         <div
-          class="sc-gKAblj fBAhIO"
+          class="sc-gKAblj fWNjKB"
         >
           <span
             class="sc-hKFyIo jqsNzg"
@@ -91,10 +91,10 @@ exports[`<TaskCard /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-jSFkmK eHHhhr"
+        class="sc-jSFkmK ikJtKn"
       >
         <div
-          class="sc-gKAblj fBAhIO"
+          class="sc-gKAblj fWNjKB"
         >
           <span
             class="sc-hKFyIo jqsNzg"

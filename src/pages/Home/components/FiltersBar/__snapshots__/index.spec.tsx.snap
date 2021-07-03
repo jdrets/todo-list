@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FiltersBar /> should match with snapshot 1`] = `
+<div>
+  <section
+    class="sc-gtssRu hjqGge"
+  >
+    <section>
+      <div
+        class="sc-eCApGN jEElRs"
+      >
+        <div
+          class="sc-jSFkmK itaXqv"
+        >
+          <div
+            class="sc-gKAblj ebCotd"
+          >
+            dummy label
+          </div>
+          <div
+            class="sc-iCoHVE gSOozR"
+            data-testid="chip-close-button"
+          >
+            <span
+              class="sc-bdnylx kpuqbH"
+              color="#000000"
+              height="22px"
+              rotate="0"
+              width="22px"
+            >
+              <svg
+                class=""
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+                <path
+                  d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-eCApGN jEElRs"
+      >
+        <div
+          class="sc-jSFkmK itaXqv"
+        >
+          <div
+            class="sc-gKAblj ebCotd"
+          >
+            dummy label 2
+          </div>
+          <div
+            class="sc-iCoHVE gSOozR"
+            data-testid="chip-close-button"
+          >
+            <span
+              class="sc-bdnylx kpuqbH"
+              color="#000000"
+              height="22px"
+              rotate="0"
+              width="22px"
+            >
+              <svg
+                class=""
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+                <path
+                  d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button
+      class="sc-dlnjPT eLxryg"
+    >
+      <span
+        class="sc-bdnylx kpuqbH"
+        color="#000000"
+        height="22px"
+        rotate="0"
+        width="22px"
+      >
+        <svg
+          class=""
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          
+          <path
+            d="M472 168H40a24 24 0 010-48h432a24 24 0 010 48zM392 280H120a24 24 0 010-48h272a24 24 0 010 48zM296 392h-80a24 24 0 010-48h80a24 24 0 010 48z"
+          />
+        </svg>
+      </span>
+      <span
+        class="sc-hKFyIo jMlnGb"
+      >
+        Filtros
+      </span>
+    </button>
+  </section>
+</div>
+`;

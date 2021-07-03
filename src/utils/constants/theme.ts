@@ -7,8 +7,10 @@ const palette = {
   greenLight: '#E6F5E2',
   red: '#EB5757',
   redLight: '#FCE4E4',
-  warning: '#DD9900',
-  warningLight: '#FEF1D8'
+  yellow: '#DD9900',
+  yellowLight: '#FEF1D8',
+  white: '#FFFFFF',
+  black: '#000000'
 }
 
 const theme = {

@@ -19,34 +19,36 @@ exports[`<Header /> should call console.log when button is clicked 1`] = `
 exports[`<Header /> should match with snapshot 1`] = `
 <div>
   <header
-    class="sc-bdnylx hhYJov"
+    class="sc-gtssRu buJCmC"
   >
     <section
-      class="sc-gtssRu hyvtdS"
+      class="sc-dlnjPT dqIPfq"
     >
       8 Jan
     </section>
     <section
-      class="sc-dlnjPT hyPmYX"
+      class="sc-hKFyIo fzGGGl"
     >
       <div
-        class="sc-hKFyIo bgNgXo"
+        class="sc-eCApGN eaCnDs"
       >
         <h1
-          class="sc-eCApGN efQgrL"
+          class="sc-jSFkmK dqRofX"
         >
           To do list
         </h1>
         <h2
-          class="sc-jSFkmK iaEWks"
+          class="sc-gKAblj btqBcj"
         >
           0 tasks
         </h2>
       </div>
       <div
-        class="sc-gKAblj cTEVQe"
+        class="sc-iCoHVE gCTGnh"
       >
-        <div>
+        <div
+          class="sc-bdnylx gwXxbg"
+        >
           Add new
         </div>
       </div>

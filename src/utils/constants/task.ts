@@ -1,7 +1,7 @@
 const TASK_CONSTANTS = {
   PRIORITY: {
     HIGH: 'High',
-    MEDIUM: 'Low',
+    MEDIUM: 'Medium',
     LOW: 'Low'
   },
   STATUS: {

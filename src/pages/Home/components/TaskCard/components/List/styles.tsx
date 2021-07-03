@@ -1,8 +1,11 @@
 import styled from 'styled-components'
 
-import { TaskPriorityValueTypes, TaskStatusValueTypes } from './types'
 import theme from '../../../../../../utils/constants/theme'
-import TASK_CONSTANTS from '../../../../../../utils/constants/task'
+
+import getStatusColor from '../../../../../../utils/functions/getStatusColor'
+import getPriorityColor from '../../../../../../utils/functions/getPriorityColor'
+
+import { TaskPriorityValueTypes, TaskStatusValueTypes } from './types'
 
 export const WrapperList = styled.div`
   display: flex;
@@ -35,34 +38,10 @@ export const ItemLabel = styled.div`
   margin-left: 2px;
 `
 
-const getPriorityColor = (priority) => {
-  if (priority === TASK_CONSTANTS.PRIORITY.HIGH) {
-    return theme.colors.red
-  } else if (priority === TASK_CONSTANTS.PRIORITY.LOW) {
-    return theme.colors.green
-  } else if (priority === TASK_CONSTANTS.PRIORITY.MEDIUM) {
-    return theme.colors.yellow
-  } else {
-    return theme.colors.primaryColor
-  }
-}
-
 export const PriorityValue = styled.span<TaskPriorityValueTypes>`
   color: ${props => getPriorityColor(props.priority)};
   font-weight: 700;
 `
-
-const getStatusColor = (status) => {
-  if (status === TASK_CONSTANTS.STATUS.TODO) {
-    return theme.colors.primaryColor
-  } else if (status === TASK_CONSTANTS.STATUS.DOING) {
-    return theme.colors.yellow
-  } else if (status === TASK_CONSTANTS.STATUS.DONE) {
-    return theme.colors.green
-  } else {
-    return theme.colors.primaryColor
-  }
-}
 
 export const StatusValue = styled.span<TaskStatusValueTypes>`
   color: ${props => getStatusColor(props.status)};

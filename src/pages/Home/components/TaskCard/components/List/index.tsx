@@ -37,7 +37,9 @@ const TaskCard: FunctionComponent<ListTypes> = ({ status, priority, dueDate }) =
             <ItemIconWrapper>
               <CalendarOutline />
             </ItemIconWrapper>
-            <ItemLabel>Due date: <DueDateValue>{dueDate}</DueDateValue></ItemLabel>
+            <ItemLabel data-testid="card-due-date">
+              Due date: <DueDateValue>{dueDate}</DueDateValue>
+            </ItemLabel>
           </Item>
         )
       }

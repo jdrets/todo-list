@@ -19,7 +19,7 @@ exports[`<Header /> should call console.log when button is clicked 1`] = `
 exports[`<Header /> should match with snapshot 1`] = `
 <div>
   <header
-    class="sc-gtssRu buJCmC"
+    class="sc-gtssRu dqNbCT"
   >
     <section
       class="sc-dlnjPT dqIPfq"
@@ -27,7 +27,7 @@ exports[`<Header /> should match with snapshot 1`] = `
       8 Jan
     </section>
     <section
-      class="sc-hKFyIo fzGGGl"
+      class="sc-hKFyIo eYbNZd"
     >
       <div
         class="sc-eCApGN eaCnDs"

@@ -20,6 +20,18 @@ const theme = {
     primaryColorLight: palette.purpleLight,
     primaryColorDark: palette.purpleDark,
     ...palette
+  },
+  layout: {
+    breakpoints: {
+      medium: '768px'
+    },
+    mobile: {
+      width: '100%',
+      padding: '0 24px'
+    },
+    desktop: {
+      width: '1050px'
+    }
   }
 }
 

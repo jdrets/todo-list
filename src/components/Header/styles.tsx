@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 
+import theme from '../../utils/constants/theme';
+
 export const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.colors.primaryColor};
   color: white;
-  height: 150px;
+  height: 210px;
   padding: 0 12px;
 `
 

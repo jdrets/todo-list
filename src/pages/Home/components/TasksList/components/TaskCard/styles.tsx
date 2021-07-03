@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import theme from '../../../../utils/constants/theme'
+import theme from '../../../../../../utils/constants/theme'
 
 export const Wrapper = styled.article`
   border-radius: 6px;

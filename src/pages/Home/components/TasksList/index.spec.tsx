@@ -3,27 +3,37 @@ import { ThemeProvider } from 'styled-components'
 
 import { render } from '@testing-library/react'
 
-import TaskCard from '.'
+import TasksList from '.'
 import theme from '../../../../utils/constants/theme'
 import AppContextProvider from '../../../../components/AppContextProvider'
 
-const setup = () => (
-  render(
+const setup = () => {
+  const mock = {
+    tasks: [
+      {
+        title: 'dummy title',
+        description: 'dummy description',
+        status: 'dummy status',
+        priority: 'dummy priority'
+      },
+      {
+        title: 'dummy title',
+        description: 'dummy description',
+        status: 'dummy status',
+        priority: 'dummy priority'
+      }
+    ]
+  }
+  return render(
     <ThemeProvider theme={theme}>
       <AppContextProvider>
-        <TaskCard
-          status='dummy status'
-          priority='dummy priority'
-          title='dummy title'
-          description='dummy description'
-          dueDate='dummy due date'
-        />
+        <TasksList {...mock} />
       </AppContextProvider>
     </ThemeProvider>
   )
-)
+}
 
-describe('<TaskCard />', () => {
+describe('<TasksList />', () => {
   test('should match with snapshot', () => {
     const { container } = setup()
 

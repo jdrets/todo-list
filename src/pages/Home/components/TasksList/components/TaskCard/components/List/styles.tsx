@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-import theme from '../../../../../../utils/constants/theme'
+import theme from '../../../../../../../../utils/constants/theme'
 
-import getStatusColor from '../../../../../../utils/functions/getStatusColor'
-import getPriorityColor from '../../../../../../utils/functions/getPriorityColor'
+import getStatusColor from '../../../../../../../../utils/functions/getStatusColor'
+import getPriorityColor from '../../../../../../../../utils/functions/getPriorityColor'
 
 import { TaskPriorityValueTypes, TaskStatusValueTypes } from './types'
 

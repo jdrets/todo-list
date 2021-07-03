@@ -58,7 +58,7 @@ exports[`<NotFoundPage /> should match with snapshot 1`] = `
           Oh, this page does not exist
         </div>
         <div
-          class="sc-jSFkmK fMrbYF"
+          class="sc-jSFkmK hsukcn"
         >
           Go to home
         </div>

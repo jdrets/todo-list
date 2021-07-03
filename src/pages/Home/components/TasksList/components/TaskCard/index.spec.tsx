@@ -3,46 +3,30 @@ import { ThemeProvider } from 'styled-components'
 
 import { render } from '@testing-library/react'
 
-import List from '.'
+import TaskCard from './index'
 import theme from '../../../../../../utils/constants/theme'
 import AppContextProvider from '../../../../../../components/AppContextProvider'
 
-const setup = (mockData = {}) => (
+const setup = () => (
   render(
     <ThemeProvider theme={theme}>
       <AppContextProvider>
-        <List
+        <TaskCard
           status='dummy status'
           priority='dummy priority'
+          title='dummy title'
+          description='dummy description'
           dueDate='dummy due date'
-          {...mockData}
         />
       </AppContextProvider>
     </ThemeProvider>
   )
 )
 
-describe('<List />', () => {
+describe('<TaskCard />', () => {
   test('should match with snapshot', () => {
     const { container } = setup()
 
     expect(container).toMatchSnapshot()
-  })
-
-  test('should not render due date if prop is null', () => {
-    const mockData = {
-      dueDate: null
-    }
-    setup(mockData)
-    const dueDate = document.querySelector('[data-testid="card-due-date"]')
-
-    expect(dueDate).toBeFalsy()
-  })
-
-  test('should render due date if prop is provided', () => {
-    const { getByTestId } = setup()
-    const dueDate = getByTestId('card-due-date')
-
-    expect(dueDate).toBeInTheDocument()
   })
 })

@@ -1,21 +1,25 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import PageWrapper from '../../components/PageWrapper'
-import TaskCard from './components/TaskCard'
+import { PageContext } from '../../components/AppContextProvider'
 import FiltersBar from './components/FiltersBar'
+import TasksList from './components/TasksList'
+import EmptyState from './components/EmptyState'
 
 const HomePage = () => {
+  const { tasks } = useContext(PageContext)
+
   return (
     <PageWrapper>
-      <FiltersBar
-
-      />
-      <TaskCard
-        title="Deploy App"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie mollis mauris vitae sagittis. Suspendisse dictum turpis lacus, eu sodales nisl commodo et. Donec ultricies dui quis metus facilisis, porta eleifend ante egestas. Cras sed convallis odio. Nam fermentum sit amet velit at consectetur. Cras vitae bibendum justo, eu sagittis nunc. Sed at quam arcu. Sed consectetur at mi a fringilla."
-        status="Doing"
-        priority="High"
-      />
+      {
+        tasks.length > 0
+          ? <>
+              <FiltersBar />
+              <TasksList tasks={tasks} />
+            </>
+          : <EmptyState />
+      }
+      <EmptyState />
     </PageWrapper>
   )
 }

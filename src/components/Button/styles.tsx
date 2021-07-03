@@ -11,7 +11,7 @@ export const ButtonWrapper = styled.div<ButtonTypes>`
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
-  padding: 10px 24px;
+  padding: 12px 24px;
   transition: 0.3s;
   
   &:hover {

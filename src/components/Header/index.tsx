@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import Button from '../../components/Button'
+import { PageContext } from '../AppContextProvider'
+
 import {
   HeaderWrapper,
   DateLabel,
@@ -12,6 +14,8 @@ import {
 } from './styles'
 
 const Header = () => {
+  const { tasks } = useContext(PageContext)
+
   const handleClickButton = () => {
     console.log('click')
   }
@@ -22,7 +26,7 @@ const Header = () => {
       <Container>
         <DataWrapper>
           <Title>To do list</Title>
-          <TasksCountLabel>0 tasks</TasksCountLabel>
+          <TasksCountLabel>{tasks.length} tasks</TasksCountLabel>
         </DataWrapper>
         <ButtonWrapper>
           <Button

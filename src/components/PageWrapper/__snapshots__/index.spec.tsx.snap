@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageWrapper /> should match with snapshot 1`] = `
+<div>
+  <section
+    class="sc-bdnylx gHaPUZ"
+  >
+    Main wrapper
+  </section>
+</div>
+`;

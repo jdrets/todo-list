@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should match with snapshot 1`] = `
+<div>
+  <section
+    class="sc-bdnylx gHaPUZ"
+  >
+    My home page
+  </section>
+</div>
+`;

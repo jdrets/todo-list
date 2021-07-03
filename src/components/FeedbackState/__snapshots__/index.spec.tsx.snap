@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedbackState /> should match with snapshot 1`] = `
+<div>
+  <section
+    class="sc-bdnylx hrnqSk"
+  >
+    <div
+      class="sc-gtssRu ljqUJc"
+    >
+      <div
+        class="sc-hKFyIo iMcohj"
+      >
+        <div>
+          dummy illustration
+        </div>
+      </div>
+      <div
+        class="sc-dlnjPT oSiim"
+      >
+        dummy title
+      </div>
+      <button>
+        dummy button
+      </button>
+    </div>
+  </section>
+</div>
+`;

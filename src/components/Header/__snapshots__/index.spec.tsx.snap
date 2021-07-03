@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should call console.log when button is clicked 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "click",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`<Header /> should match with snapshot 1`] = `
+<div>
+  <header
+    class="sc-bdnylx hhYJov"
+  >
+    <section
+      class="sc-gtssRu hyvtdS"
+    >
+      8 Jan
+    </section>
+    <section
+      class="sc-dlnjPT hyPmYX"
+    >
+      <div
+        class="sc-hKFyIo bgNgXo"
+      >
+        <h1
+          class="sc-eCApGN efQgrL"
+        >
+          To do list
+        </h1>
+        <h2
+          class="sc-jSFkmK iaEWks"
+        >
+          0 tasks
+        </h2>
+      </div>
+      <div
+        class="sc-gKAblj cTEVQe"
+      >
+        <div>
+          Add new
+        </div>
+      </div>
+    </section>
+  </header>
+</div>
+`;

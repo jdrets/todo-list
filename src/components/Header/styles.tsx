@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
+import theme from '../../utils/constants/theme'
+
 export const HeaderWrapper = styled.header`
-  background-color: ${props => props.theme.colors.primaryColor};
+  background-color: ${theme.colors.primaryColor};
   color: white;
   height: 150px;
-  padding: 0 12px;
 `
 
 export const DateLabel = styled.section`
@@ -15,6 +16,13 @@ export const DateLabel = styled.section`
 export const Container = styled.section`
   display: flex;
   justify-content: space-between;
+  padding: ${theme.layout.mobile.padding};
+  width: ${theme.layout.mobile.width};
+
+  @media (min-width: ${theme.layout.breakpoints.medium}) {
+    margin: 0 auto;
+    max-width: ${theme.layout.desktop.width};
+  }
 `
 
 export const DataWrapper = styled.div`

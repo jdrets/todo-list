@@ -8,8 +8,8 @@ export const HeaderWrapper = styled.header`
 `
 
 export const DateLabel = styled.section`
-  text-align: center;
   padding: 24px 0;
+  text-align: center;
 `
 
 export const Container = styled.section`
@@ -32,6 +32,6 @@ export const TasksCountLabel = styled.h2`
 `
 
 export const ButtonWrapper = styled.div`
-  display: flex;
   align-items: center;
+  display: flex;
 `

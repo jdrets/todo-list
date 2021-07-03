@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
-import theme from '../../utils/constants/theme';
+import theme from '../../utils/constants/theme'
 
 export const HeaderWrapper = styled.header`
   background-color: ${theme.colors.primaryColor};
   color: white;
   height: 210px;
+  
+  @media (min-width: ${theme.layout.breakpoints.medium}) {
+    height: 150px;
+  }
 `
 
 export const DateLabel = styled.section`

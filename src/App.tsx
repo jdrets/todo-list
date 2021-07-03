@@ -16,7 +16,7 @@ const App = () => {
       <AppContextProvider>
         <Header />
         <MainWrapper>
-          asd
+          Main wrapper example
         </MainWrapper>
       </AppContextProvider>
     </ThemeProvider>

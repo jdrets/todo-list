@@ -7,15 +7,15 @@ import Header from '.'
 import theme from '../../utils/constants/theme'
 import AppContextProvider from '../AppContextProvider'
 
-const setup = () => {
-  return render(
+const setup = () => (
+  render(
     <ThemeProvider theme={theme}>
       <AppContextProvider>
         <Header/>
       </AppContextProvider>
     </ThemeProvider>
   )
-}
+)
 
 describe('<Header />', () => {
   test('should match with snapshot', () => {

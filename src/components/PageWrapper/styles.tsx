@@ -7,12 +7,13 @@ export const Wrapper = styled.section`
   border-radius: 60px;
   height: calc(100vh - 210px);
   margin-top: -60px;
-  padding: 32px;
+  padding: 24px;
 
   @media (min-width: ${theme.layout.breakpoints.medium}) {
     border-radius: 0;
     height: calc(100vh - 150px);
-    margin-top: 0;
+    width: 600px;
+    margin: 0 auto
   }
 `
 

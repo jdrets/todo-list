@@ -8,10 +8,10 @@ export const ButtonWrapper = styled.div<ButtonTypes>`
   background-color: ${props => getBackgroundColor(props.variant)};
   border-radius: 24px;
   color: ${props => getColor(props.variant)};
+  cursor: pointer;
   display: inline-block;
   font-weight: 700;
   padding: 12px 24px;
-  cursor: pointer;
   transition: 0.3s;
   
   &:hover {

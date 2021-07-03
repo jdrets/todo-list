@@ -5,14 +5,17 @@ import { render, fireEvent } from '@testing-library/react'
 
 import Header from '.'
 import theme from '../../utils/constants/theme'
+import AppContextProvider from '../AppContextProvider'
 
-const setup = () => (
-  render(
+const setup = () => {
+  return render(
     <ThemeProvider theme={theme}>
-      <Header />
+      <AppContextProvider>
+        <Header/>
+      </AppContextProvider>
     </ThemeProvider>
   )
-)
+}
 
 describe('<Header />', () => {
   test('should match with snapshot', () => {

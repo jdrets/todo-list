@@ -10,7 +10,8 @@ const palette = {
   yellow: '#DD9900',
   yellowLight: '#FEF1D8',
   white: '#FFFFFF',
-  black: '#000000'
+  black: '#000000',
+  gray: '#898989'
 }
 
 const theme = {

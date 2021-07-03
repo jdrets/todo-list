@@ -3,22 +3,21 @@ import { ThemeProvider } from 'styled-components'
 
 import { render } from '@testing-library/react'
 
+import HomePage from '.'
 import theme from '../../utils/constants/theme'
-import AppContextProvider from '../AppContextProvider'
-
-import PageWrapper from '.'
+import AppContextProvider from '../../components/AppContextProvider'
 
 const setup = () => (
   render(
     <ThemeProvider theme={theme}>
       <AppContextProvider>
-        <PageWrapper>Main wrapper</PageWrapper>
+        <HomePage />
       </AppContextProvider>
     </ThemeProvider>
   )
 )
 
-describe('<PageWrapper />', () => {
+describe('<HomePage />', () => {
   test('should match with snapshot', () => {
     const { container } = setup()
 

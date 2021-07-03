@@ -4,8 +4,8 @@ import {
   Wrapper
 } from './styles'
 
-const MainWrapper = ({ children }) => (
+const PageWrapper = ({ children }) => (
   <Wrapper>{children}</Wrapper>
 )
 
-export default MainWrapper
+export default PageWrapper

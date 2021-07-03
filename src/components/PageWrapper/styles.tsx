@@ -12,7 +12,7 @@ export const Wrapper = styled.section`
   @media (min-width: ${theme.layout.breakpoints.medium}) {
     border-radius: 0;
     height: calc(100vh - 150px);
-    margin: 0 auto
+    margin: 0 auto;
     width: 600px;
   }
 `

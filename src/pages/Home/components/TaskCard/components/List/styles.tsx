@@ -8,14 +8,14 @@ import getPriorityColor from '../../../../../../utils/functions/getPriorityColor
 import { TaskPriorityValueTypes, TaskStatusValueTypes } from './types'
 
 export const WrapperList = styled.div`
-  display: flex;
   color: ${theme.colors.gray};
+  display: flex;
 `
 
 export const Item = styled.div`
+  align-items: center;
   display: flex;
   font-size: 10px;
-  align-items: center;
   margin-right: 10px;
   
   @media(min-width: ${theme.layout.breakpoints.medium}) {
@@ -28,9 +28,9 @@ export const ItemIconWrapper = styled.div`
   margin-left: -3px;
   
   svg {
+    fill: ${theme.colors.gray}
     height: 16px;
     width: auto;
-    fill: ${theme.colors.gray}
   }
 `
 

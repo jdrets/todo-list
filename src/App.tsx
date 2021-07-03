@@ -7,6 +7,7 @@ import AppContextProvider from './components/AppContextProvider'
 import theme from './utils/constants/theme'
 
 import Header from './components/Header'
+import MainWrapper from './components/MainWrapper'
 
 const App = () => {
   return (
@@ -14,6 +15,9 @@ const App = () => {
       <GlobalStyle />
       <AppContextProvider>
         <Header />
+        <MainWrapper>
+          Main wrapper example
+        </MainWrapper>
       </AppContextProvider>
     </ThemeProvider>
   )

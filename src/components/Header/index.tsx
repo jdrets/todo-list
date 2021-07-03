@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Button from '../../components/Button'
 import {
   HeaderWrapper,
   DateLabel,
@@ -24,7 +25,12 @@ const Header = () => {
           <TasksCountLabel>0 tasks</TasksCountLabel>
         </DataWrapper>
         <ButtonWrapper>
-          <div onClick={handleClickButton}>Add new</div>
+          <Button
+            onClick={handleClickButton}
+            variant="white"
+          >
+            Add new
+          </Button>
         </ButtonWrapper>
       </Container>
     </HeaderWrapper>

@@ -7,10 +7,10 @@ import Header from '.'
 import theme from '../../utils/constants/theme'
 import AppContextProvider from '../AppContextProvider'
 
-const setup = () => (
+const setup = (contextMock = {}) => (
   render(
     <ThemeProvider theme={theme}>
-      <AppContextProvider>
+      <AppContextProvider {...contextMock}>
         <Header/>
       </AppContextProvider>
     </ThemeProvider>
@@ -24,15 +24,18 @@ describe('<Header />', () => {
     expect(container).toMatchSnapshot()
   })
 
-  test('should call console.log when button is clicked', () => {
-    const consoleLogMock = jest.fn()
-    const { getByText } = setup()
+  test('should call context function when button is clicked', () => {
+    const setNewTaskModalMock = jest.fn()
+    const contextMock = {
+      value: {
+        setNewTaskModal: setNewTaskModalMock
+      }
+    }
+    const { getByText } = setup(contextMock)
     const button = getByText('Add new')
-
-    console.log = consoleLogMock
 
     fireEvent.click(button)
 
-    expect(consoleLogMock).toMatchSnapshot()
+    expect(setNewTaskModalMock).toHaveBeenCalled()
   })
 })

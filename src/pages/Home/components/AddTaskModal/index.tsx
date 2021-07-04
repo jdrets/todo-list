@@ -10,6 +10,10 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
   open,
   onClose
 }) => {
+  const handleConfirm = () => {
+    // TODO: add task
+  }
+
   return (
     <Modal
       title="Add new task"
@@ -17,12 +21,16 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
       onClose={onClose}
     >
       asd
-
       <ButtonsWrapper>
-        <Button>
+        <Button
+          variant="white"
+          onClick={onClose}
+        >
           Cancel
         </Button>
-        <Button>
+        <Button
+          onClick={handleConfirm}
+        >
           Create
         </Button>
       </ButtonsWrapper>

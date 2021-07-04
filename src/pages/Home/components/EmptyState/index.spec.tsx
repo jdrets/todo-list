@@ -1,16 +1,16 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import { render } from '@testing-library/react'
+import {fireEvent, render} from '@testing-library/react'
 
 import EmptyState from '.'
 import theme from '../../../../utils/constants/theme'
 import AppContextProvider from '../../../../components/AppContextProvider'
 
-const setup = () => (
+const setup = (contextMock = {}) => (
   render(
     <ThemeProvider theme={theme}>
-      <AppContextProvider>
+      <AppContextProvider {...contextMock}>
         <EmptyState />
       </AppContextProvider>
     </ThemeProvider>
@@ -22,5 +22,20 @@ describe('<EmptyState />', () => {
     const { container } = setup()
 
     expect(container).toMatchSnapshot()
+  })
+
+  test('should call setNewModal context function when button is clicked', () => {
+    const setNewTaskModalMock = jest.fn()
+    const contextMock = {
+      value: {
+        setNewTaskModal: setNewTaskModalMock
+      }
+    }
+    const { getByText } = setup(contextMock)
+    const button = getByText('Create task')
+
+    fireEvent.click(button)
+
+    expect(setNewTaskModalMock).toHaveBeenCalled()
   })
 })

@@ -16,7 +16,7 @@ const Modal: FunctionComponent<ModalTypes> = ({
   open,
   onClose
 }) => (
-  open && <Wrapper onClick={onClose}>
+  open && <Wrapper>
     <Container>
       <Header>
         <Title>{title}</Title>

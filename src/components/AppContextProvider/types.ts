@@ -11,4 +11,6 @@ export interface TasksTypes {
 export interface AppContextProviderTypes {
   tasks: TasksTypes[]
   setTasks: React.SetStateAction<any>
+  newTaskModal: boolean
+  setNewTaskModal: React.SetStateAction<any>
 }

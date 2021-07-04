@@ -1,12 +1,15 @@
-import React from 'react'
+import React, {useContext} from 'react'
 
 import FeedbackState from '../../../../components/FeedbackState'
 import Button from '../../../../components/Button'
 import Illustration from './components/Illustration'
+import { PageContext } from '../../../../components/AppContextProvider';
 
 const EmptyState = () => {
+  const { setNewTaskModal } = useContext(PageContext)
+
   const handleButtonClick = () => {
-    // TODO: open new task modal
+    setNewTaskModal(true)
   }
 
   return (

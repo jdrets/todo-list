@@ -8,8 +8,11 @@ import EmptyState from './components/EmptyState'
 import AddTaskModal from './components/AddTaskModal'
 
 const HomePage = () => {
-  const [open, setOpen] = useState(true)
-  const { tasks } = useContext(PageContext)
+  const { tasks, setNewTaskModal, newTaskModal } = useContext(PageContext)
+
+  const closeNewTaskModal = () => {
+    setNewTaskModal(false)
+  }
 
   return (
     <PageWrapper>
@@ -23,8 +26,8 @@ const HomePage = () => {
       }
 
       <AddTaskModal
-        open={open}
-        onClose={() => setOpen(false)}
+        open={newTaskModal}
+        onClose={closeNewTaskModal}
       />
     </PageWrapper>
   )

@@ -4,11 +4,15 @@ import { AppContextProviderTypes } from './types'
 
 export const PageContext = createContext({} as AppContextProviderTypes)
 
-const AppContextProvider: FunctionComponent = ({ children }) => {
+const AppContextProvider: FunctionComponent<any> = ({ children, value = {} }) => {
   const [tasks, setTasks] = useState([])
+  const [newTaskModal, setNewTaskModal] = useState(false)
   const contextValues = {
     tasks,
-    setTasks
+    setTasks,
+    newTaskModal,
+    setNewTaskModal,
+    ...value,
   }
 
   return (

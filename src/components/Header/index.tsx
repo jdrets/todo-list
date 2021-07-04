@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 
+import getCurrentDate from '../../utils/functions/getCurrentDate'
 import Button from '../../components/Button'
 import { PageContext } from '../AppContextProvider'
 
@@ -15,6 +16,7 @@ import {
 
 const Header = () => {
   const { tasks, setShowCreateTaskModal } = useContext(PageContext)
+  const todayDate = getCurrentDate()
 
   const handleClickButton = () => {
     setShowCreateTaskModal(true)
@@ -22,7 +24,7 @@ const Header = () => {
 
   return (
     <HeaderWrapper>
-      <DateLabel>8 Jan</DateLabel>
+      <DateLabel>{todayDate}</DateLabel>
       <Container>
         <DataWrapper>
           <Title>To do list</Title>

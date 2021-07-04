@@ -46,6 +46,7 @@
     "@jest/types": "^27.0.1",
     "@testing-library/react": "^11.2.7",
     "@types/styled-components": "^5.1.4",
+    "dateformat": "^4.5.1",
     "jest": "^27.0.1",
     "lodash": "^4.17.21",
     "react": "^17.0.2",

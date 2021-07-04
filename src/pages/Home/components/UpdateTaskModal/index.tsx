@@ -10,6 +10,7 @@ import { PageContext } from '../../../../components/AppContextProvider'
 import Modal from '../../../../components/Modal'
 import Fields from './components/Fields'
 import withFieldsModal from '../withFieldsModal'
+import PageWrapper from "../../../../components/PageWrapper";
 
 export const UpdateTaskModal: FunctionComponent<ModalType> = ({
   open,

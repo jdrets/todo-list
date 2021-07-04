@@ -17,7 +17,6 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField, fields }) =
       fullWidth
       required
     >
-      <option>Select task status</option>
       <option value={TASK_CONSTANTS.STATUS.TODO}>{TASK_CONSTANTS.STATUS.TODO}</option>
       <option value={TASK_CONSTANTS.STATUS.DOING}>{TASK_CONSTANTS.STATUS.DOING}</option>
       <option value={TASK_CONSTANTS.STATUS.DONE}>{TASK_CONSTANTS.STATUS.DONE}</option>
@@ -31,7 +30,6 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField, fields }) =
       fullWidth
       required
     >
-      <option>Select task priority</option>
       <option value={TASK_CONSTANTS.PRIORITY.LOW}>{TASK_CONSTANTS.PRIORITY.LOW}</option>
       <option value={TASK_CONSTANTS.PRIORITY.MEDIUM}>{TASK_CONSTANTS.PRIORITY.MEDIUM}</option>
       <option value={TASK_CONSTANTS.PRIORITY.HIGH}>{TASK_CONSTANTS.PRIORITY.HIGH}</option>

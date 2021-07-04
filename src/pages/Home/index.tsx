@@ -26,6 +26,7 @@ const HomePage = ({ showSnackbar }) => {
   }
 
   const closeUpdateTaskModal = () => {
+    setSelectedTask(null)
     setShowUpdateModal(false)
   }
 

@@ -9,10 +9,10 @@ import EmptyState from './components/EmptyState'
 import AddTaskModal from './components/AddTaskModal'
 
 const HomePage = ({ showSnackbar }) => {
-  const { tasks, setNewTaskModal, newTaskModal } = useContext(PageContext)
+  const { tasks, setShowCreateTaskModal, showCreateTaskModal } = useContext(PageContext)
 
   const closeNewTaskModal = () => {
-    setNewTaskModal(false)
+    setShowCreateTaskModal(false)
   }
 
   return (
@@ -27,7 +27,7 @@ const HomePage = ({ showSnackbar }) => {
       }
 
       <AddTaskModal
-        open={newTaskModal}
+        open={showCreateTaskModal}
         onClose={closeNewTaskModal}
         showSnackbar={showSnackbar}
       />

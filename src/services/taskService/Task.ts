@@ -7,7 +7,7 @@ class Task implements TaskTypes {
   title: string;
   dueDate?: string;
 
-  constructor (title, status, priority, description, dueDate) {
+  constructor (title, description, status, priority, dueDate) {
     this.title = title
     this.status = status
     this.priority = priority

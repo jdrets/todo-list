@@ -3,9 +3,10 @@ import uuid from 'react-uuid'
 
 import TaskCard from './components/TaskCard'
 import { TasksListTypes } from './types'
+import { Wrapper } from './styles'
 
 const TasksList: FunctionComponent<TasksListTypes> = ({ tasks }) => (
-  <>
+  <Wrapper>
     {tasks.map(task => (
       <TaskCard
         key={uuid()}
@@ -16,7 +17,7 @@ const TasksList: FunctionComponent<TasksListTypes> = ({ tasks }) => (
         dueDate={task.dueDate}
       />
     ))}
-  </>
+  </Wrapper>
 )
 
 export default TasksList

@@ -6,10 +6,10 @@ import Illustration from './components/Illustration'
 import { PageContext } from '../../../../components/AppContextProvider'
 
 const EmptyState = () => {
-  const { setNewTaskModal } = useContext(PageContext)
+  const { setShowCreateTaskModal } = useContext(PageContext)
 
   const handleButtonClick = () => {
-    setNewTaskModal(true)
+    setShowCreateTaskModal(true)
   }
 
   return (

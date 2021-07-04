@@ -14,10 +14,10 @@ import {
 } from './styles'
 
 const Header = () => {
-  const { tasks, setNewTaskModal } = useContext(PageContext)
+  const { tasks, setShowCreateTaskModal } = useContext(PageContext)
 
   const handleClickButton = () => {
-    setNewTaskModal(true)
+    setShowCreateTaskModal(true)
   }
 
   return (

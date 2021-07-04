@@ -3,16 +3,16 @@
 exports[`<HomePage /> should match with snapshot 1`] = `
 <div>
   <section
-    class="sc-bdnylx jACAPs"
+    class="sc-bdnylx dWtgTD"
   >
     <section
-      class="sc-bkbjAj idSdVz"
+      class="sc-iemXMA hGooQc"
     >
       <div
-        class="sc-iemXMA cafnwx"
+        class="sc-dIvqjp gEYgI"
       >
         <div
-          class="sc-hHEjAm ljclji"
+          class="sc-dlMBXb ihbSEA"
         >
           <svg
             viewBox="0 0 511.997 511.997"
@@ -47,33 +47,33 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </svg>
         </div>
         <div
-          class="sc-dIvqjp dyBXTG"
+          class="sc-hHEjAm gkDkON"
         >
           Oh, task list is empty
         </div>
         <div
-          class="sc-dlMBXb eNSaNp"
+          class="sc-kfYqjs lhdGwI"
         >
           Create task
         </div>
       </div>
     </section>
     <div
-      class="sc-fKgIGh hOIkHJ"
+      class="sc-bCwgka crVuIy"
     >
       <div
-        class="sc-bCwgka jtuGzK"
+        class="sc-iwaifL hJTtzB"
       >
         <div
-          class="sc-iwaifL eatuZH"
+          class="sc-cxNIbT busjuR"
         >
           <h2
-            class="sc-cxNIbT eYRXWh"
+            class="sc-lmgQde kYnkpF"
           >
             Add new task
           </h2>
           <button
-            class="sc-lmgQde ZxUvr"
+            class="sc-iJCRLp jUkeLP"
             data-testid="modal-close-button"
           >
             <span
@@ -97,27 +97,27 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </button>
         </div>
         <div
-          class="sc-ciSmjq dWLGon"
+          class="sc-jcwofb eByLIh"
         >
           <div
-            class="sc-iJCRLp gUJGCt"
+            class="sc-giAqnE fJsbNC"
           >
             <div
-              class="sc-kLokih fUHqgp"
+              class="sc-iklIKw gFqCjQ"
             >
               Status
                
               <span
-                class="sc-iklIKw cJbkMN"
+                class="sc-jJMGHv hgGWhK"
               >
                 *
               </span>
             </div>
             <div
-              class="sc-giAqnE dVJCWV"
+              class="sc-ezzayL jURaoZ"
             >
               <select
-                class="sc-bYwzba dnwpkg"
+                class="sc-kLokih dolvCP"
                 name="status"
                 placeholder="Task status"
                 required=""
@@ -142,7 +142,7 @@ exports[`<HomePage /> should match with snapshot 1`] = `
                 </option>
               </select>
               <div
-                class="sc-ezzayL bJvFGF"
+                class="sc-bYwzba dFoaKB"
               >
                 <span
                   class="sc-dlnjPT feMzXu"
@@ -171,24 +171,24 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-iJCRLp gUJGCt"
+            class="sc-giAqnE fJsbNC"
           >
             <div
-              class="sc-kLokih fUHqgp"
+              class="sc-iklIKw gFqCjQ"
             >
               Priority
                
               <span
-                class="sc-iklIKw cJbkMN"
+                class="sc-jJMGHv hgGWhK"
               >
                 *
               </span>
             </div>
             <div
-              class="sc-giAqnE dVJCWV"
+              class="sc-ezzayL jURaoZ"
             >
               <select
-                class="sc-bYwzba dnwpkg"
+                class="sc-kLokih dolvCP"
                 name="priority"
                 placeholder="Task priority"
                 required=""
@@ -213,7 +213,7 @@ exports[`<HomePage /> should match with snapshot 1`] = `
                 </option>
               </select>
               <div
-                class="sc-ezzayL bJvFGF"
+                class="sc-bYwzba dFoaKB"
               >
                 <span
                   class="sc-dlnjPT feMzXu"
@@ -242,16 +242,16 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-jJMGHv ejneAX"
+            class="sc-hiKfjK hCIoiG"
           >
             <div
-              class="sc-gXfWUo gLYwMz"
+              class="sc-cBoprd lphvfz"
             >
               Due date
                
             </div>
             <input
-              class="sc-hiKfjK ewUMKa"
+              class="sc-gXfWUo cSHSor"
               name="dueDate"
               placeholder="Due date"
               required=""
@@ -260,21 +260,21 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-jJMGHv ejneAX"
+            class="sc-hiKfjK hCIoiG"
           >
             <div
-              class="sc-gXfWUo gLYwMz"
+              class="sc-cBoprd lphvfz"
             >
               Title
                
               <span
-                class="sc-cBoprd chvmGm"
+                class="sc-ciSmjq eXXmiR"
               >
                 *
               </span>
             </div>
             <input
-              class="sc-hiKfjK ewUMKa"
+              class="sc-gXfWUo cSHSor"
               name="title"
               placeholder="Task title"
               required=""
@@ -282,21 +282,21 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-jJMGHv ejneAX"
+            class="sc-hiKfjK hCIoiG"
           >
             <div
-              class="sc-gXfWUo gLYwMz"
+              class="sc-cBoprd lphvfz"
             >
               Description
                
               <span
-                class="sc-cBoprd chvmGm"
+                class="sc-ciSmjq eXXmiR"
               >
                 *
               </span>
             </div>
             <textarea
-              class="sc-hiKfjK hxFodW"
+              class="sc-gXfWUo PtXnH"
               name="description"
               placeholder="Task description"
               required=""
@@ -304,15 +304,16 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-kfYqjs dKIcQV"
+          class="sc-fKgIGh hkyvTt"
         >
           <div
-            class="sc-dlMBXb gAmHjx"
+            class="sc-kfYqjs kUWEoI"
           >
             Cancel
           </div>
           <div
-            class="sc-dlMBXb eNSaNp"
+            class="sc-kfYqjs GWYJj"
+            disabled=""
           >
             Create
           </div>

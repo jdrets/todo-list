@@ -5,7 +5,7 @@ import theme from '../../utils/constants/theme'
 export const Wrapper = styled.section`
   background-color: white;
   border-radius: 60px;
-  height: calc(100vh - 210px);
+  min-height: calc(100vh - 210px);
   margin-top: -60px;
   padding: 24px;
 

@@ -256,7 +256,8 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
           Cancel
         </div>
         <div
-          class="sc-gtssRu dSSfSs"
+          class="sc-gtssRu bPCFgL"
+          disabled=""
         >
           Create
         </div>

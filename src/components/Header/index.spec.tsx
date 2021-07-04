@@ -25,10 +25,10 @@ describe('<Header />', () => {
   })
 
   test('should call context function when button is clicked', () => {
-    const setNewTaskModalMock = jest.fn()
+    const setShowCreateTaskModal = jest.fn()
     const contextMock = {
       value: {
-        setNewTaskModal: setNewTaskModalMock
+        setShowCreateTaskModal: setShowCreateTaskModal
       }
     }
     const { getByText } = setup(contextMock)
@@ -36,6 +36,6 @@ describe('<Header />', () => {
 
     fireEvent.click(button)
 
-    expect(setNewTaskModalMock).toHaveBeenCalled()
+    expect(setShowCreateTaskModal).toHaveBeenCalled()
   })
 })

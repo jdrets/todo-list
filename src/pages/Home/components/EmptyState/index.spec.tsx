@@ -25,10 +25,10 @@ describe('<EmptyState />', () => {
   })
 
   test('should call setNewModal context function when button is clicked', () => {
-    const setNewTaskModalMock = jest.fn()
+    const setShowCreateTaskModalMock = jest.fn()
     const contextMock = {
       value: {
-        setNewTaskModal: setNewTaskModalMock
+        setShowCreateTaskModal: setShowCreateTaskModalMock
       }
     }
     const { getByText } = setup(contextMock)
@@ -36,6 +36,6 @@ describe('<EmptyState />', () => {
 
     fireEvent.click(button)
 
-    expect(setNewTaskModalMock).toHaveBeenCalled()
+    expect(setShowCreateTaskModalMock).toHaveBeenCalled()
   })
 })

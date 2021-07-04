@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 import theme from '../../utils/constants/theme'
+import { TextFieldTypes } from './types'
 
 export const Wrapper = styled.div`
   display: block;
 `
 
-export const Input = styled.input<any>`
+export const Input = styled.input<TextFieldTypes>`
   border-radius: 4px;
   border: 1px solid ${theme.colors.grayLight};
   outline: none;
@@ -22,6 +23,11 @@ export const Input = styled.input<any>`
   
   &:focus {
     border-color: ${theme.colors.primaryColor};
+  }
+  
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0.2;
+    padding: 0;
   }
 `
 

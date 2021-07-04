@@ -25,12 +25,13 @@ const Select: FunctionComponent<SelectTypes> = ({
     <Label>
       {label} {required && <RequiredLabel>*</RequiredLabel>}
     </Label>
-    <SelectFieldWrapper>
+    <SelectFieldWrapper
+      fullWidth={fullWidth}
+    >
       <SelectField
         value={value}
         placeholder={placeholder}
         onChange={onChange}
-        fullWidth={fullWidth}
         name={name}
         required
       >

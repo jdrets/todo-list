@@ -1,20 +1,36 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useState } from 'react'
 
 import { AddTaskModalType } from './types'
-import { ButtonsWrapper, FieldsWrapper } from './styles'
+import { ButtonsWrapper } from './styles'
 
 import Button from '../../../../components/Button'
-import TextField from '../../../../components/TextField'
-import Select from '../../../../components/Select'
 import Modal from '../../../../components/Modal'
+import Fields from './components/Fields'
 
 const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
   open,
   onClose
 }) => {
+  const [fields, setFields] = useState({
+    title: null,
+    status: null,
+    priority: null,
+    description: null,
+    dueDate: null
+  })
+
+  const handleChangeField = ({ target: { value, name } }) => {
+    setFields({
+      ...fields,
+      [name]: value
+    })
+  }
+
   const handleConfirm = () => {
     // TODO: add task
   }
+
+  console.log(fields)
 
   return (
     <Modal
@@ -22,44 +38,7 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
       open={open}
       onClose={onClose}
     >
-      <FieldsWrapper>
-        <Select
-          label="Status"
-          name="status"
-          placeholder="Task status"
-          onChange={() => true}
-          fullWidth
-          required
-        >
-          <option value="hola">hola</option>
-        </Select>
-        <TextField
-          label="Priority"
-          name="priority"
-          placeholder="Task priority"
-          onChange={() => true}
-          fullWidth
-          required
-        />
-        <TextField
-          label="Title"
-          name="title"
-          placeholder="Task title"
-          onChange={() => true}
-          fullWidth
-          required
-        />
-        <TextField
-          label="Description"
-          name="description"
-          placeholder="Task description"
-          onChange={() => true}
-          fullWidth
-          multiline
-          required
-        />
-      </FieldsWrapper>
-
+      <Fields handleChangeField={handleChangeField} />
       <ButtonsWrapper>
         <Button
           variant="white"

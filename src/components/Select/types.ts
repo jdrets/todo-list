@@ -7,3 +7,7 @@ export interface SelectTypes {
   name?: string
   required?: boolean
 }
+
+export interface SelectWrapperTypes {
+  fullWidth?: boolean
+}

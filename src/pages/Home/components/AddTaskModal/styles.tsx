@@ -17,8 +17,3 @@ export const ButtonsWrapper = styled.div`
     position: inherit;
   }
 `
-
-export const FieldsWrapper = styled.div`
-  display: grid;
-  gap: 12px;
-`

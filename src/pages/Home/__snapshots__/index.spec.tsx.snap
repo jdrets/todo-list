@@ -59,21 +59,21 @@ exports[`<HomePage /> should match with snapshot 1`] = `
       </div>
     </section>
     <div
-      class="sc-lmgQde hugLhr"
+      class="sc-kfYqjs clMPpl"
     >
       <div
-        class="sc-iJCRLp gQuNlb"
+        class="sc-fKgIGh gzyERZ"
       >
         <div
-          class="sc-giAqnE hXplHW"
+          class="sc-bCwgka XwutE"
         >
           <h2
-            class="sc-ezzayL hQXWMu"
+            class="sc-iwaifL iSPLub"
           >
             Add new task
           </h2>
           <button
-            class="sc-bYwzba kbKJFA"
+            class="sc-cxNIbT goquGP"
             data-testid="modal-close-button"
           >
             <span
@@ -97,68 +97,178 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </button>
         </div>
         <div
-          class="sc-kfYqjs jIPlIE"
+          class="sc-cBoprd hivlSc"
         >
           <div
-            class="sc-fKgIGh fbdLIP"
+            class="sc-lmgQde dZOexV"
           >
             <div
-              class="sc-iwaifL edyYwH"
+              class="sc-bYwzba fxajpu"
             >
               Status
                
               <span
-                class="sc-cxNIbT bOKhpY"
+                class="sc-kLokih etQghA"
               >
                 *
               </span>
             </div>
-            <input
-              class="sc-bCwgka jIdOdD"
-              name="status"
-              placeholder="Task status"
-              required=""
-              value=""
-            />
+            <div
+              class="sc-iJCRLp bIWoVi"
+            >
+              <select
+                class="sc-ezzayL bbctyk"
+                name="status"
+                placeholder="Task status"
+                required=""
+              >
+                <option
+                  value="To do"
+                >
+                  To do
+                </option>
+                <option
+                  value="Doing"
+                >
+                  Doing
+                </option>
+                <option
+                  value="Done"
+                >
+                  Done
+                </option>
+              </select>
+              <div
+                class="sc-giAqnE cLvAiR"
+              >
+                <span
+                  class="sc-gtssRu iNbmUm"
+                  color="#000000"
+                  height="22px"
+                  rotate="0"
+                  width="22px"
+                >
+                  <svg
+                    class=""
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="48"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
           </div>
           <div
-            class="sc-fKgIGh fbdLIP"
+            class="sc-lmgQde dZOexV"
           >
             <div
-              class="sc-iwaifL edyYwH"
+              class="sc-bYwzba fxajpu"
             >
               Priority
                
               <span
-                class="sc-cxNIbT bOKhpY"
+                class="sc-kLokih etQghA"
               >
                 *
               </span>
             </div>
+            <div
+              class="sc-iJCRLp bIWoVi"
+            >
+              <select
+                class="sc-ezzayL bbctyk"
+                name="priority"
+                placeholder="Task priority"
+                required=""
+              >
+                <option
+                  value="Low"
+                >
+                  Low
+                </option>
+                <option
+                  value="Medium"
+                >
+                  Medium
+                </option>
+                <option
+                  value="High"
+                >
+                  High
+                </option>
+              </select>
+              <div
+                class="sc-giAqnE cLvAiR"
+              >
+                <span
+                  class="sc-gtssRu iNbmUm"
+                  color="#000000"
+                  height="22px"
+                  rotate="0"
+                  width="22px"
+                >
+                  <svg
+                    class=""
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="48"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-iklIKw eVhqCM"
+          >
+            <div
+              class="sc-hiKfjK gKjRRC"
+            >
+              Due date
+               
+            </div>
             <input
-              class="sc-bCwgka jIdOdD"
-              name="priority"
-              placeholder="Task priority"
+              class="sc-jJMGHv dGWUtF"
+              name="dueDate"
+              placeholder="Due date"
               required=""
+              type="date"
               value=""
             />
           </div>
           <div
-            class="sc-fKgIGh fbdLIP"
+            class="sc-iklIKw eVhqCM"
           >
             <div
-              class="sc-iwaifL edyYwH"
+              class="sc-hiKfjK gKjRRC"
             >
               Title
                
               <span
-                class="sc-cxNIbT bOKhpY"
+                class="sc-gXfWUo ikFszC"
               >
                 *
               </span>
             </div>
             <input
-              class="sc-bCwgka jIdOdD"
+              class="sc-jJMGHv dGWUtF"
               name="title"
               placeholder="Task title"
               required=""
@@ -166,21 +276,21 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-fKgIGh fbdLIP"
+            class="sc-iklIKw eVhqCM"
           >
             <div
-              class="sc-iwaifL edyYwH"
+              class="sc-hiKfjK gKjRRC"
             >
               Description
                
               <span
-                class="sc-cxNIbT bOKhpY"
+                class="sc-gXfWUo ikFszC"
               >
                 *
               </span>
             </div>
             <textarea
-              class="sc-bCwgka eTBSwn"
+              class="sc-jJMGHv ftAEVB"
               name="description"
               placeholder="Task description"
               required=""

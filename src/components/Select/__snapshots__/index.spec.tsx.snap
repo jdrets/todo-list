@@ -17,7 +17,7 @@ exports[`<Select /> should match with snapshot 1`] = `
       </span>
     </div>
     <div
-      class="sc-dlnjPT bDRKyw"
+      class="sc-dlnjPT dtLmxg"
     >
       <select
         class="sc-eCApGN daPEYn"
@@ -32,7 +32,7 @@ exports[`<Select /> should match with snapshot 1`] = `
         </option>
       </select>
       <div
-        class="sc-hKFyIo eRtPqp"
+        class="sc-hKFyIo bVSfKK"
       >
         <span
           class="sc-bdnylx kpuqbH"
@@ -59,34 +59,6 @@ exports[`<Select /> should match with snapshot 1`] = `
         </span>
       </div>
     </div>
-  </div>
-</div>
-`;
-
-exports[`<TextField /> should match with snapshot 1`] = `
-<div>
-  <div
-    class="sc-bdnylx lmgoAG"
-  >
-    <div
-      class="sc-dlnjPT iSoqbz"
-    >
-      dummy label
-       
-      <span
-        class="sc-hKFyIo blOphI"
-      >
-        *
-      </span>
-    </div>
-    <textarea
-      class="sc-gtssRu jfXXKQ"
-      name="dummy name"
-      placeholder="dummy placeholder"
-      required=""
-    >
-      dummy value
-    </textarea>
   </div>
 </div>
 `;

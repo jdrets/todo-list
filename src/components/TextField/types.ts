@@ -7,4 +7,5 @@ export interface TextFieldTypes {
   name?: string
   required?: boolean
   multiline?: boolean
+  type?: string
 }

@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 import theme from '../../utils/constants/theme'
+import { SelectWrapperTypes } from './types'
 
 export const Wrapper = styled.div`
   display: block;
 `
 
-export const SelectFieldWrapper = styled.div<any>`
+export const SelectFieldWrapper = styled.div<SelectWrapperTypes>`
   align-items: center;
-  appearance: none;
   border-radius: 4px;
   border: 1px solid ${theme.colors.grayLight};
   display: flex;
@@ -29,8 +29,8 @@ export const SelectFieldWrapper = styled.div<any>`
 
 export const IconWrapper = styled.div`
   position: absolute;
-  right: 8px;
-  top: 12px;
+  right: 10px;
+  top: 10px;
   z-index: 1;
   
   svg {
@@ -39,7 +39,7 @@ export const IconWrapper = styled.div`
   }
 `
 
-export const SelectField = styled.select<any>`
+export const SelectField = styled.select`
   appearance: none;
   background-color: transparent;
   border: none;

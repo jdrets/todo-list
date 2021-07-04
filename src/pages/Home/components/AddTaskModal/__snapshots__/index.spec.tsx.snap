@@ -3,25 +3,25 @@
 exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-fujyUd dCQxoI"
+    class="sc-hKFyIo kcLwtf"
   >
     <div
-      class="sc-pNWxx QBAng"
+      class="sc-eCApGN bRrhpH"
     >
       <div
-        class="sc-jrsJCI qoAYI"
+        class="sc-jSFkmK fZfftN"
       >
         <h2
-          class="sc-kEqYlL gHBfzx"
+          class="sc-gKAblj jhShoS"
         >
           Add new task
         </h2>
         <button
-          class="sc-iqAbSa pHoCA"
+          class="sc-iCoHVE eyyXYf"
           data-testid="modal-close-button"
         >
           <span
-            class="sc-iCoHVE GwIeE"
+            class="sc-dlnjPT feMzXu"
             color="#000000"
             height="22px"
             rotate="0"
@@ -41,68 +41,178 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
         </button>
       </div>
       <div
-        class="sc-gtssRu jMHWCo"
+        class="sc-fnVYJo gkpykG"
       >
         <div
-          class="sc-hKFyIo dQfOSN"
+          class="sc-fujyUd gEVBzy"
         >
           <div
-            class="sc-jSFkmK UNLJ"
+            class="sc-iqAbSa eEwhLy"
           >
             Status
              
             <span
-              class="sc-gKAblj hqUYfj"
+              class="sc-crzoUp kwOebr"
             >
               *
             </span>
           </div>
-          <input
-            class="sc-eCApGN kdwqZa"
-            name="status"
-            placeholder="Task status"
-            required=""
-            value=""
-          />
+          <div
+            class="sc-pNWxx eZKhKZ"
+          >
+            <select
+              class="sc-kEqYlL gxXEFH"
+              name="status"
+              placeholder="Task status"
+              required=""
+            >
+              <option
+                value="To do"
+              >
+                To do
+              </option>
+              <option
+                value="Doing"
+              >
+                Doing
+              </option>
+              <option
+                value="Done"
+              >
+                Done
+              </option>
+            </select>
+            <div
+              class="sc-jrsJCI hkbrwn"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M112 184l144 144 144-144"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="48"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
         </div>
         <div
-          class="sc-hKFyIo dQfOSN"
+          class="sc-fujyUd gEVBzy"
         >
           <div
-            class="sc-jSFkmK UNLJ"
+            class="sc-iqAbSa eEwhLy"
           >
             Priority
              
             <span
-              class="sc-gKAblj hqUYfj"
+              class="sc-crzoUp kwOebr"
             >
               *
             </span>
           </div>
+          <div
+            class="sc-pNWxx eZKhKZ"
+          >
+            <select
+              class="sc-kEqYlL gxXEFH"
+              name="priority"
+              placeholder="Task priority"
+              required=""
+            >
+              <option
+                value="Low"
+              >
+                Low
+              </option>
+              <option
+                value="Medium"
+              >
+                Medium
+              </option>
+              <option
+                value="High"
+              >
+                High
+              </option>
+            </select>
+            <div
+              class="sc-jrsJCI hkbrwn"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M112 184l144 144 144-144"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="48"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-dIsAE cyGWFl"
+        >
+          <div
+            class="sc-ksluoS fuxgTu"
+          >
+            Due date
+             
+          </div>
           <input
-            class="sc-eCApGN kdwqZa"
-            name="priority"
-            placeholder="Task priority"
+            class="sc-bqGHjH jBPPvD"
+            name="dueDate"
+            placeholder="Due date"
             required=""
+            type="date"
             value=""
           />
         </div>
         <div
-          class="sc-hKFyIo dQfOSN"
+          class="sc-dIsAE cyGWFl"
         >
           <div
-            class="sc-jSFkmK UNLJ"
+            class="sc-ksluoS fuxgTu"
           >
             Title
              
             <span
-              class="sc-gKAblj hqUYfj"
+              class="sc-hBMVcZ cRlzPi"
             >
               *
             </span>
           </div>
           <input
-            class="sc-eCApGN kdwqZa"
+            class="sc-bqGHjH jBPPvD"
             name="title"
             placeholder="Task title"
             required=""
@@ -110,21 +220,21 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-hKFyIo dQfOSN"
+          class="sc-dIsAE cyGWFl"
         >
           <div
-            class="sc-jSFkmK UNLJ"
+            class="sc-ksluoS fuxgTu"
           >
             Description
              
             <span
-              class="sc-gKAblj hqUYfj"
+              class="sc-hBMVcZ cRlzPi"
             >
               *
             </span>
           </div>
           <textarea
-            class="sc-eCApGN yyKwi"
+            class="sc-bqGHjH jRnrhX"
             name="description"
             placeholder="Task description"
             required=""
@@ -135,12 +245,12 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
         class="sc-bdnylx fhbphs"
       >
         <div
-          class="sc-dlnjPT eEFJBJ"
+          class="sc-gtssRu fNPdYB"
         >
           Cancel
         </div>
         <div
-          class="sc-dlnjPT lRwUx"
+          class="sc-gtssRu hIVKnp"
         >
           Create
         </div>

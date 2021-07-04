@@ -16,7 +16,8 @@ const TextField: FunctionComponent<TextFieldTypes> = ({
   fullWidth,
   name,
   required,
-  multiline
+  multiline,
+  type
 }) => (
   <Wrapper>
     <Label>
@@ -29,6 +30,7 @@ const TextField: FunctionComponent<TextFieldTypes> = ({
       onChange={onChange}
       fullWidth={fullWidth}
       multiline={multiline}
+      type={type}
       name={name}
       required
     />

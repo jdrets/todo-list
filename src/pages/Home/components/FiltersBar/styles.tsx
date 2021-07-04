@@ -7,6 +7,8 @@ export const Wrapper = styled.section`
   display: flex;
   justify-content: space-between;
   padding: 6px 0 12px;
+  position: relative;
+  z-index: 2;
 `
 
 export const FilterButton = styled.button`

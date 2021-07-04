@@ -24,6 +24,7 @@ export const TitleWrapper = styled.div`
   color: ${theme.colors.gray};
   font-size: 24px;
   font-weight: 500;
+  max-width: 300px;
   padding: 18px 0 24px;
   text-align: center;
 `

@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
-import _ from 'lodash'
 import uuid from 'react-uuid'
 
+import FilterEmptyState from '../../components/FilterEmptyState'
 import TaskCard from './components/TaskCard'
 import { TasksListTypes } from './types'
 import { Wrapper } from './styles'
@@ -12,15 +12,17 @@ const TasksList: FunctionComponent<TasksListTypes> = ({ tasks, setSelectedTask, 
   const currentTasks = filters ? filterTasks() : tasks
 
   return (
-    <Wrapper>
-      {currentTasks.map(task => (
-        <TaskCard
-          key={uuid()}
-          task={task}
-          setSelectedTask={setSelectedTask}
-        />
-      ))}
-    </Wrapper>
+    currentTasks.length > 0
+      ? <Wrapper>
+          {currentTasks.map(task => (
+            <TaskCard
+              key={uuid()}
+              task={task}
+              setSelectedTask={setSelectedTask}
+            />
+          ))}
+        </Wrapper>
+      : <FilterEmptyState />
   )
 }
 

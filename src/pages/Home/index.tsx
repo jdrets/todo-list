@@ -13,7 +13,7 @@ import FiltersModal from './components/FiltersModal'
 const HomePage = ({ showSnackbar }) => {
   const [filters, setFilters] = useState(null)
   const [showUpdateModal, setShowUpdateModal] = useState(false)
-  const [showFiltersModal, setShowFiltersModal] = useState(true)
+  const [showFiltersModal, setShowFiltersModal] = useState(false)
   const [selectedTask, setSelectedTask] = useState(null)
   const { tasks, setShowCreateTaskModal, showCreateTaskModal } = useContext(PageContext)
 

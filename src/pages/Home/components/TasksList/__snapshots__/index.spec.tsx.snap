@@ -3,22 +3,22 @@
 exports[`<TasksList /> should match with snapshot 1`] = `
 <div>
   <section
-    class="sc-kEqYlL kwoYXy"
+    class="sc-bqGHjH ddExjq"
   >
     <article
-      class="sc-bdnylx jafSpd"
+      class="sc-eCApGN jhpHrq"
     >
       <div
-        class="sc-eCApGN biFMTw"
+        class="sc-fujyUd eoHxzr"
       >
         <div
-          class="sc-jSFkmK ikJtKn"
+          class="sc-pNWxx UNhgU"
         >
           <div
-            class="sc-gKAblj fWNjKB"
+            class="sc-jrsJCI iKoPrv"
           >
             <span
-              class="sc-hKFyIo jqsNzg"
+              class="sc-iCoHVE GwIeE"
               color="#000000"
               height="22px"
               rotate="0"
@@ -47,24 +47,24 @@ exports[`<TasksList /> should match with snapshot 1`] = `
             </span>
           </div>
           <div
-            class="sc-iCoHVE eZjSys"
+            class="sc-kEqYlL UmPuQ"
           >
             Priority: 
             <span
-              class="sc-fujyUd eqjiKa"
+              class="sc-iqAbSa bWdyMW"
             >
               dummy priority
             </span>
           </div>
         </div>
         <div
-          class="sc-jSFkmK ikJtKn"
+          class="sc-pNWxx UNhgU"
         >
           <div
-            class="sc-gKAblj fWNjKB"
+            class="sc-jrsJCI iKoPrv"
           >
             <span
-              class="sc-hKFyIo jqsNzg"
+              class="sc-iCoHVE GwIeE"
               color="#000000"
               height="22px"
               rotate="0"
@@ -83,11 +83,11 @@ exports[`<TasksList /> should match with snapshot 1`] = `
             </span>
           </div>
           <div
-            class="sc-iCoHVE eZjSys"
+            class="sc-kEqYlL UmPuQ"
           >
             Status: 
             <span
-              class="sc-pNWxx kbZvre"
+              class="sc-crzoUp krrsYy"
             >
               dummy status
             </span>
@@ -95,30 +95,30 @@ exports[`<TasksList /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-gtssRu hJpPPJ"
+        class="sc-jSFkmK kFRjrD"
       >
         dummy title
       </div>
       <div
-        class="sc-dlnjPT kmnrPE"
+        class="sc-gKAblj kvtFwB"
       >
         dummy description
       </div>
     </article>
     <article
-      class="sc-bdnylx jafSpd"
+      class="sc-eCApGN jhpHrq"
     >
       <div
-        class="sc-eCApGN biFMTw"
+        class="sc-fujyUd eoHxzr"
       >
         <div
-          class="sc-jSFkmK ikJtKn"
+          class="sc-pNWxx UNhgU"
         >
           <div
-            class="sc-gKAblj fWNjKB"
+            class="sc-jrsJCI iKoPrv"
           >
             <span
-              class="sc-hKFyIo jqsNzg"
+              class="sc-iCoHVE GwIeE"
               color="#000000"
               height="22px"
               rotate="0"
@@ -147,24 +147,24 @@ exports[`<TasksList /> should match with snapshot 1`] = `
             </span>
           </div>
           <div
-            class="sc-iCoHVE eZjSys"
+            class="sc-kEqYlL UmPuQ"
           >
             Priority: 
             <span
-              class="sc-fujyUd eqjiKa"
+              class="sc-iqAbSa bWdyMW"
             >
               dummy priority
             </span>
           </div>
         </div>
         <div
-          class="sc-jSFkmK ikJtKn"
+          class="sc-pNWxx UNhgU"
         >
           <div
-            class="sc-gKAblj fWNjKB"
+            class="sc-jrsJCI iKoPrv"
           >
             <span
-              class="sc-hKFyIo jqsNzg"
+              class="sc-iCoHVE GwIeE"
               color="#000000"
               height="22px"
               rotate="0"
@@ -183,11 +183,11 @@ exports[`<TasksList /> should match with snapshot 1`] = `
             </span>
           </div>
           <div
-            class="sc-iCoHVE eZjSys"
+            class="sc-kEqYlL UmPuQ"
           >
             Status: 
             <span
-              class="sc-pNWxx kbZvre"
+              class="sc-crzoUp krrsYy"
             >
               dummy status
             </span>
@@ -195,12 +195,12 @@ exports[`<TasksList /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-gtssRu hJpPPJ"
+        class="sc-jSFkmK kFRjrD"
       >
         dummy title
       </div>
       <div
-        class="sc-dlnjPT kmnrPE"
+        class="sc-gKAblj kvtFwB"
       >
         dummy description
       </div>

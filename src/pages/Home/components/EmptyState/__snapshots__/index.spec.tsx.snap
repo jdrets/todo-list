@@ -44,7 +44,7 @@ exports[`<EmptyState /> should match with snapshot 1`] = `
         </svg>
       </div>
       <div
-        class="sc-dlnjPT oSiim"
+        class="sc-dlnjPT jAIsa-d"
       >
         Oh, task list is empty
       </div>

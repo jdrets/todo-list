@@ -1,4 +1,5 @@
 import Task from './Task'
+import _ from 'lodash'
 
 import TASK_CONSTANTS from '../../utils/constants/task'
 
@@ -17,7 +18,8 @@ class TaskService {
   }
 
   static get () {
-    return JSON.parse(localStorage.getItem(TASK_CONSTANTS.STORAGE_KEY)) || []
+    const tasks = JSON.parse(localStorage.getItem(TASK_CONSTANTS.STORAGE_KEY)) || []
+    return _.reverse(tasks)
   }
 }
 

@@ -18,7 +18,7 @@ const AppContextProvider: FunctionComponent<any> = ({ children, value = {} }) =>
   const updateContextWithNewTask = (task) => {
     const newTasks = _.clone(tasks)
     newTasks.push(task)
-    setTasks(newTasks)
+    setTasks(_.reverse(newTasks))
   }
 
   const contextValues = {

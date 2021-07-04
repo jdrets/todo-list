@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 
 import PageWrapper from '../../components/PageWrapper'
 import withSnackbar from '../../components/withSnackbar'

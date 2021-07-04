@@ -22,7 +22,8 @@ const setup = () => {
         status: 'dummy status',
         priority: 'dummy priority'
       }
-    ]
+    ],
+    setSelectedTask: jest.fn()
   }
   return render(
     <ThemeProvider theme={theme}>

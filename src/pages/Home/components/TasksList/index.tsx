@@ -5,16 +5,13 @@ import TaskCard from './components/TaskCard'
 import { TasksListTypes } from './types'
 import { Wrapper } from './styles'
 
-const TasksList: FunctionComponent<TasksListTypes> = ({ tasks }) => (
+const TasksList: FunctionComponent<TasksListTypes> = ({ tasks, setSelectedTask }) => (
   <Wrapper>
     {tasks.map(task => (
       <TaskCard
         key={uuid()}
-        title={task.title}
-        description={task.description}
-        status={task.status}
-        priority={task.priority}
-        dueDate={task.dueDate}
+        task={task}
+        setSelectedTask={setSelectedTask}
       />
     ))}
   </Wrapper>

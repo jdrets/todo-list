@@ -3,7 +3,7 @@
 exports[`<PageWrapper /> should match with snapshot 1`] = `
 <div>
   <section
-    class="sc-bdnylx eyAyBQ"
+    class="sc-bdnylx jbrtdu"
   >
     Main wrapper
   </section>

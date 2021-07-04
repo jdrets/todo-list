@@ -21,14 +21,14 @@ const AddTaskModal: FunctionComponent<ModalType> = ({
   isButtonDisabled,
   handleCancel
 }) => {
-  const { updateContextWithNewTask } = useContext(PageContext)
+  const { updateContextTasks } = useContext(PageContext)
 
   const handleConfirm = () => {
     try {
       setFetching(true)
 
       TaskService.create(fields as any)
-      updateContextWithNewTask(fields)
+      updateContextTasks()
 
       showSnackbar(SNACKBAR.TYPE.SUCCESS, SNACKBAR.MESSAGE.TASKS.SUCCESS.CREATED)
       handleCancel()

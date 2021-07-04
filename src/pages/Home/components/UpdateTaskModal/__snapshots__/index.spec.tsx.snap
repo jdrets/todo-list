@@ -249,9 +249,9 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
         class="sc-bdnylx fhbphs"
       >
         <div
-          class="sc-gtssRu dGLdKs"
+          class="sc-gtssRu ivXUmL"
         >
-          Cancel
+          Delete
         </div>
         <div
           class="sc-gtssRu bPCFgL"

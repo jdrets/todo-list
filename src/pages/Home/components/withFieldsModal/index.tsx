@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react'
+import React, { FunctionComponent, useEffect, useState } from 'react'
 import { withFieldsModalTypes } from './types'
 
 const withFieldsModal = (Modal) => {
@@ -11,6 +11,10 @@ const withFieldsModal = (Modal) => {
       description: null,
       dueDate: null
     })
+
+    useEffect(() => {
+      setFields(props.selectedTask)
+    }, [props.selectedTask])
 
     const handleChangeField = ({ target: { value, name } }) => {
       setFields({

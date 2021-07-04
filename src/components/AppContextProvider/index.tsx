@@ -15,16 +15,16 @@ const AppContextProvider: FunctionComponent<any> = ({ children, value = {} }) =>
     setTasks(storage)
   }, [])
 
-  const updateContextWithNewTask = (task) => {
-    const newTasks = _.clone(tasks)
-    newTasks.push(task)
-    setTasks(_.reverse(newTasks))
+  const updateContextTasks = () => {
+    const updatedTask = TaskService.get()
+
+    setTasks(updatedTask)
   }
 
   const contextValues = {
     tasks,
     showCreateTaskModal,
-    updateContextWithNewTask,
+    updateContextTasks,
     setShowCreateTaskModal,
     ...value
   }

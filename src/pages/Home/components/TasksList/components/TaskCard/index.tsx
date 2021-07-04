@@ -5,15 +5,22 @@ import {
   Title,
   Description
 } from './styles'
-import { TaskTypes } from './types'
+import { TaskCardTypes } from './types'
 import List from './components/List'
 
-const TaskCard: FunctionComponent<TaskTypes> = ({ title, description, status, priority, dueDate }) => {
+const TaskCard: FunctionComponent<TaskCardTypes> = ({
+  task,
+  setSelectedTask
+}) => {
+  const handleClick = () => {
+    setSelectedTask(task)
+  }
+
   return (
-    <Wrapper>
-      <List status={status} priority={priority} dueDate={dueDate} />
-      <Title>{title}</Title>
-      <Description>{description}</Description>
+    <Wrapper onClick={handleClick}>
+      <List status={task.status} priority={task.priority} dueDate={task.dueDate} />
+      <Title>{task.title}</Title>
+      <Description>{task.description}</Description>
     </Wrapper>
   )
 }

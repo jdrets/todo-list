@@ -191,7 +191,7 @@ exports[`<TaskCard /> should match with snapshot 1`] = `
           <span
             class="sc-jrsJCI laYCos"
           >
-            dummy due date
+            dummy dueDate
           </span>
         </div>
       </div>

@@ -10,7 +10,7 @@ export interface TasksTypes {
 
 export interface AppContextProviderTypes {
   tasks: TasksTypes[]
-  updateContextWithNewTask: (task: TasksTypes) => void
+  updateContextTasks: () => void
   showCreateTaskModal: boolean
   setShowCreateTaskModal: React.SetStateAction<any>
 }

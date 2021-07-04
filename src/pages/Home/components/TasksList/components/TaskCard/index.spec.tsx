@@ -12,11 +12,14 @@ const setup = () => (
     <ThemeProvider theme={theme}>
       <AppContextProvider>
         <TaskCard
-          status='dummy status'
-          priority='dummy priority'
-          title='dummy title'
-          description='dummy description'
-          dueDate='dummy due date'
+          task={{
+            status: 'dummy status',
+            priority: 'dummy priority',
+            dueDate: 'dummy dueDate',
+            description: 'dummy description',
+            title: 'dummy title'
+          }}
+          setSelectedTask={jest.fn()}
         />
       </AppContextProvider>
     </ThemeProvider>

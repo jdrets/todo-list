@@ -1,13 +1,15 @@
 import { TaskTypes } from '../../pages/Home/components/TasksList/components/TaskCard/types'
 
 class Task implements TaskTypes {
+  id: number;
   description: string;
   priority: string;
   status: string;
   title: string;
   dueDate?: string;
 
-  constructor (title, description, status, priority, dueDate) {
+  constructor (id, title, description, status, priority, dueDate) {
+    this.id = id
     this.title = title
     this.status = status
     this.priority = priority

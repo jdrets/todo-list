@@ -21,20 +21,34 @@ const AddTaskModal: FunctionComponent<ModalType> = ({
   isButtonDisabled,
   handleCancel
 }) => {
-  // const { updateContextWithNewTask } = useContext(PageContext)
+  const { updateContextTasks } = useContext(PageContext)
 
   const handleConfirm = () => {
     try {
       setFetching(true)
 
-      // TaskService.create(fields)
-      // updateContextWithNewTask(fields)
+      TaskService.update(fields)
+      updateContextTasks()
 
-      showSnackbar(SNACKBAR.TYPE.SUCCESS, SNACKBAR.MESSAGE.TASKS.SUCCESS.CREATED)
+      showSnackbar(SNACKBAR.TYPE.SUCCESS, SNACKBAR.MESSAGE.TASKS.SUCCESS.UPDATE)
       handleCancel()
     } catch (error) {
-      console.log(error)
+      showSnackbar(SNACKBAR.TYPE.ERROR, SNACKBAR.MESSAGE.ERROR)
+    } finally {
+      setFetching(false)
+    }
+  }
 
+  const handleDelete = () => {
+    try {
+      setFetching(true)
+
+      TaskService.delete(fields.id)
+      updateContextTasks()
+
+      showSnackbar(SNACKBAR.TYPE.SUCCESS, SNACKBAR.MESSAGE.TASKS.SUCCESS.DELETE)
+      handleCancel()
+    } catch (error) {
       showSnackbar(SNACKBAR.TYPE.ERROR, SNACKBAR.MESSAGE.ERROR)
     } finally {
       setFetching(false)
@@ -50,10 +64,10 @@ const AddTaskModal: FunctionComponent<ModalType> = ({
       <Fields fields={fields} handleChangeField={handleChangeField} />
       <ButtonsWrapper>
         <Button
-          variant="white"
-          onClick={handleCancel}
+          onClick={handleDelete}
+          variant="red"
         >
-          Cancel
+          Delete
         </Button>
         <Button
           onClick={handleConfirm}

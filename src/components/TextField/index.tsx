@@ -25,7 +25,7 @@ const TextField: FunctionComponent<TextFieldTypes> = ({
     </Label>
     <Input
       as={multiline ? 'textarea' : 'input'}
-      value={value}
+      value={value || ''}
       placeholder={placeholder}
       onChange={onChange}
       fullWidth={fullWidth}

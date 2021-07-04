@@ -66,7 +66,7 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
       open={open}
       onClose={handleCancel}
     >
-      <Fields handleChangeField={handleChangeField} />
+      <Fields fields={fields} handleChangeField={handleChangeField} />
       <ButtonsWrapper>
         <Button
           variant="white"

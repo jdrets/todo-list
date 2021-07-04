@@ -29,7 +29,7 @@ const Select: FunctionComponent<SelectTypes> = ({
       fullWidth={fullWidth}
     >
       <SelectField
-        value={value}
+        value={value || ''}
         placeholder={placeholder}
         onChange={onChange}
         name={name}

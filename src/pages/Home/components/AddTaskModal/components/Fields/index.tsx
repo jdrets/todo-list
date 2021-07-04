@@ -6,13 +6,14 @@ import TextField from '../../../../../../components/TextField'
 import { FieldsWrapper } from './styles'
 import { FieldsTypes } from './types'
 
-const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField }) => (
+const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField, fields }) => (
   <FieldsWrapper>
     <Select
       label="Status"
       name="status"
       placeholder="Task status"
       onChange={handleChangeField}
+      value={fields?.status}
       fullWidth
       required
     >
@@ -26,6 +27,7 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField }) => (
       name="priority"
       placeholder="Task priority"
       onChange={handleChangeField}
+      value={fields?.priority}
       fullWidth
       required
     >
@@ -39,6 +41,7 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField }) => (
       name="dueDate"
       placeholder="Due date"
       onChange={handleChangeField}
+      value={fields?.dueDate}
       fullWidth
       type="date"
     />
@@ -47,6 +50,7 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField }) => (
       name="title"
       placeholder="Task title"
       onChange={handleChangeField}
+      value={fields?.title}
       fullWidth
       required
     />
@@ -55,6 +59,7 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField }) => (
       name="description"
       placeholder="Task description"
       onChange={handleChangeField}
+      value={fields?.description}
       fullWidth
       multiline
       required

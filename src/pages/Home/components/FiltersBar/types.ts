@@ -1,3 +1,5 @@
+import { SetStateAction } from 'react'
+
 export interface FiltersTypes {
   label: string
   onClose: () => void
@@ -5,5 +7,7 @@ export interface FiltersTypes {
 }
 
 export interface FiltersBarTypes {
-  filters?: FiltersTypes[]
+  filters?: any
+  setFilters: SetStateAction<any>
+  openFilterModal: () => void
 }

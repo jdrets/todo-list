@@ -58,6 +58,231 @@ exports[`<HomePage /> should match with snapshot 1`] = `
         </div>
       </div>
     </section>
+    <div
+      class="sc-bCwgka crVuIy"
+    >
+      <div
+        class="sc-iwaifL hJTtzB"
+      >
+        <div
+          class="sc-cxNIbT busjuR"
+        >
+          <h2
+            class="sc-lmgQde kYnkpF"
+          >
+            Filters
+          </h2>
+          <button
+            class="sc-iJCRLp jUkeLP"
+            data-testid="modal-close-button"
+          >
+            <span
+              class="sc-dlnjPT feMzXu"
+              color="#000000"
+              height="22px"
+              rotate="0"
+              width="22px"
+            >
+              <svg
+                class=""
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+                <path
+                  d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div
+          class="sc-efHXLn eXdjyR"
+        >
+          <div
+            class="sc-hiKfjK hCIoiG"
+          >
+            <div
+              class="sc-cBoprd lphvfz"
+            >
+              Title
+               
+            </div>
+            <input
+              class="sc-gXfWUo cSHSor"
+              name="title"
+              placeholder="Task title"
+              required=""
+              value=""
+            />
+          </div>
+          <div
+            class="sc-giAqnE fJsbNC"
+          >
+            <div
+              class="sc-iklIKw gFqCjQ"
+            >
+              By status
+               
+            </div>
+            <div
+              class="sc-ezzayL jURaoZ"
+            >
+              <select
+                class="sc-kLokih dolvCP"
+                name="status"
+                placeholder="Task status"
+                required=""
+              >
+                <option>
+                  Select task status
+                </option>
+                <option
+                  value="To do"
+                >
+                  To do
+                </option>
+                <option
+                  value="Doing"
+                >
+                  Doing
+                </option>
+                <option
+                  value="Done"
+                >
+                  Done
+                </option>
+              </select>
+              <div
+                class="sc-bYwzba dFoaKB"
+              >
+                <span
+                  class="sc-dlnjPT feMzXu"
+                  color="#000000"
+                  height="22px"
+                  rotate="0"
+                  width="22px"
+                >
+                  <svg
+                    class=""
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="48"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-giAqnE fJsbNC"
+          >
+            <div
+              class="sc-iklIKw gFqCjQ"
+            >
+              By priority
+               
+            </div>
+            <div
+              class="sc-ezzayL jURaoZ"
+            >
+              <select
+                class="sc-kLokih dolvCP"
+                name="priority"
+                placeholder="Task priority"
+                required=""
+              >
+                <option>
+                  Select task priority
+                </option>
+                <option
+                  value="Low"
+                >
+                  Low
+                </option>
+                <option
+                  value="Medium"
+                >
+                  Medium
+                </option>
+                <option
+                  value="High"
+                >
+                  High
+                </option>
+              </select>
+              <div
+                class="sc-bYwzba dFoaKB"
+              >
+                <span
+                  class="sc-dlnjPT feMzXu"
+                  color="#000000"
+                  height="22px"
+                  rotate="0"
+                  width="22px"
+                >
+                  <svg
+                    class=""
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="48"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-hiKfjK hCIoiG"
+          >
+            <div
+              class="sc-cBoprd lphvfz"
+            >
+              Until due date
+               
+            </div>
+            <input
+              class="sc-gXfWUo cSHSor"
+              name="dueDate"
+              placeholder="Due date"
+              required=""
+              type="date"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="sc-iBzFoy dNqDjg"
+        >
+          <div
+            class="sc-kfYqjs kUWEoI"
+          >
+            Cancel
+          </div>
+          <div
+            class="sc-kfYqjs lhdGwI"
+          >
+            Filter tasks
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <div
     class="sc-gtssRu iGghyX"

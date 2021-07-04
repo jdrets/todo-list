@@ -9,16 +9,12 @@ import AppContextProvider from '../../../../components/AppContextProvider'
 
 const setup = (mockData = {}) => {
   const mock = {
-    filters: [
-      {
-        label: 'dummy label',
-        onClose: jest.fn()
-      },
-      {
-        label: 'dummy label 2',
-        onClose: jest.fn()
-      }
-    ]
+    openFilterModal: jest.fn(),
+    setFilters: jest.fn(),
+    filters: {
+      title: 'dummy title',
+      description: 'dummt description'
+    }
   }
   return render(
     <ThemeProvider theme={theme}>

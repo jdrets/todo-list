@@ -8,8 +8,8 @@ import theme from '../../utils/constants/theme'
 
 const setup = (mockData = {}) => {
   const mock = {
-    onClose: jest.fn(),
-    label: 'dummy label'
+    deleteFilter: jest.fn(),
+    filter: ['dummy key', 'dummy value']
   }
   return render(
     <ThemeProvider theme={theme}>
@@ -27,10 +27,10 @@ describe('<Chip />', () => {
     expect(container).toMatchSnapshot()
   })
 
-  test('should call onClose function when close button is clicked', () => {
+  test('should call deleteFilter function when close button is clicked', () => {
     const mockOnClose = jest.fn()
     const mockData = {
-      onClose: mockOnClose
+      deleteFilter: mockOnClose
     }
     const { getByTestId } = setup(mockData)
     const button = getByTestId('chip-close-button')

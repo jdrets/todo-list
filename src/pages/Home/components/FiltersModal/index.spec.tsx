@@ -3,39 +3,26 @@ import { ThemeProvider } from 'styled-components'
 
 import { render } from '@testing-library/react'
 
-import TasksList from '.'
+import AddTaskModal from '.'
 import theme from '../../../../utils/constants/theme'
 import AppContextProvider from '../../../../components/AppContextProvider'
 
-const setup = () => {
+const setup = (mockData = {}) => {
   const mock = {
-    tasks: [
-      {
-        title: 'dummy title',
-        description: 'dummy description',
-        status: 'dummy status',
-        priority: 'dummy priority'
-      },
-      {
-        title: 'dummy title',
-        description: 'dummy description',
-        status: 'dummy status',
-        priority: 'dummy priority'
-      }
-    ],
-    setSelectedTask: jest.fn(),
-    filters: null
+    open: true,
+    onClose: jest.fn(),
+    showSnackbar: jest.fn()
   }
   return render(
     <ThemeProvider theme={theme}>
       <AppContextProvider>
-        <TasksList {...mock} />
+        <AddTaskModal {...mock} {...mockData} />
       </AppContextProvider>
     </ThemeProvider>
   )
 }
 
-describe('<TasksList />', () => {
+describe('<AddTaskModal />', () => {
   test('should match with snapshot', () => {
     const { container } = setup()
 

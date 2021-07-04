@@ -10,17 +10,23 @@ import {
 } from './styles'
 
 const Chip: FunctionComponent<ChipTypes> = ({
-  onClose,
-  label
-}) => (
-  <Wrapper>
-    <Container>
-      <Label>{label}</Label>
-      <CloseButton onClick={onClose} data-testid="chip-close-button">
-        <Close />
-      </CloseButton>
-    </Container>
-  </Wrapper>
-)
+  deleteFilter,
+  filter
+}) => {
+  const handleClose = () => {
+    deleteFilter(filter[0])
+  }
+
+  return (
+    filter[1] && <Wrapper>
+      <Container>
+        <Label>{filter[0]}: {filter[1]}</Label>
+        <CloseButton onClick={handleClose} data-testid="chip-close-button">
+          <Close/>
+        </CloseButton>
+      </Container>
+    </Wrapper>
+  )
+}
 
 export default Chip

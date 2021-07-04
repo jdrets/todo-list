@@ -1,4 +1,4 @@
 export interface ChipTypes {
-  onClose?: () => void
-  label: string
+  deleteFilter?: (key: string) => void
+  filter: any
 }

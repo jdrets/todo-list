@@ -54,6 +54,26 @@ class TaskService {
     const tasks = JSON.parse(localStorage.getItem(TASK_CONSTANTS.STORAGE_KEY)) || []
     return _.orderBy(tasks, 'id', 'desc')
   }
+
+  static filter (filters) {
+    const tasks = this.get()
+
+    const filterByTitle = filters.title
+      ? tasks.filter(task => task.title?.toLowerCase().indexOf(filters.title?.toLowerCase()) >= 0)
+      : tasks
+
+    const filterByStatus = filters.status
+      ? filterByTitle.filter(task => task.status === filters.status)
+      : filterByTitle
+
+    const filterByPriority = filters.priority
+      ? filterByStatus.filter(task => task.priority === filters.priority)
+      : filterByStatus
+
+    return filters.dueDate
+      ? filterByPriority.filter(task => task.dueDate >= filters.dueDate)
+      : filterByPriority
+  }
 }
 
 export default TaskService

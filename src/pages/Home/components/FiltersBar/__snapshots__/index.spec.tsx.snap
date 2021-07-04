@@ -15,7 +15,9 @@ exports[`<FiltersBar /> should match with snapshot 1`] = `
           <div
             class="sc-gKAblj ebCotd"
           >
-            dummy label
+            title
+            : 
+            dummy title
           </div>
           <div
             class="sc-iCoHVE gSOozR"
@@ -51,7 +53,9 @@ exports[`<FiltersBar /> should match with snapshot 1`] = `
           <div
             class="sc-gKAblj ebCotd"
           >
-            dummy label 2
+            description
+            : 
+            dummt description
           </div>
           <div
             class="sc-iCoHVE gSOozR"

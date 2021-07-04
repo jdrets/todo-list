@@ -1,4 +1,5 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useEffect, useState } from 'react'
+import _ from 'lodash'
 import { Filter as FilterIcon } from 'react-ionicons'
 import uuid from 'react-uuid'
 
@@ -12,22 +13,37 @@ import {
 import Chip from '../../../../components/Chip'
 
 const FiltersBar: FunctionComponent<FiltersBarTypes> = ({
-  filters = []
+  filters,
+  setFilters,
+  openFilterModal
 }) => {
+  const [chips, setChips] = useState([])
+
+  useEffect(() => {
+    setChips(_.toPairs(filters))
+  }, [filters])
+
+  const deleteFilter = (key) => {
+    setFilters({
+      ...filters,
+      [key]: null
+    })
+  }
+
   return (
     <Wrapper>
       <section>
         {
-          filters.map(filter => (
+          chips.map(filter => (
             <Chip
               key={uuid()}
-              onClose={() => true}
-              label={filter.label}
+              deleteFilter={deleteFilter}
+              filter={filter}
             />
           ))
         }
       </section>
-      <FilterButton>
+      <FilterButton onClick={openFilterModal}>
         <FilterIcon />
         <FilterButtonLabel>Filtros</FilterButtonLabel>
       </FilterButton>

@@ -3,6 +3,7 @@ import React, { FunctionComponent, useState } from 'react'
 import { AddTaskModalType } from './types'
 import { ButtonsWrapper } from './styles'
 
+import TaskService from '../../../../services/taskService'
 import Button from '../../../../components/Button'
 import Modal from '../../../../components/Modal'
 import Fields from './components/Fields'
@@ -27,27 +28,39 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
   }
 
   const handleConfirm = () => {
-    // TODO: add task
+    try {
+      TaskService.create(fields)
+    } catch (error) {
+      console.log(error)
+    }
   }
 
-  console.log(fields)
+  const handleCancel = () => {
+    setFields(null)
+    onClose()
+  }
+
+  const isButtonDisabled = () => {
+    return !fields.status || !fields.priority || !fields.description || !fields.title
+  }
 
   return (
     <Modal
       title="Add new task"
       open={open}
-      onClose={onClose}
+      onClose={handleCancel}
     >
       <Fields handleChangeField={handleChangeField} />
       <ButtonsWrapper>
         <Button
           variant="white"
-          onClick={onClose}
+          onClick={handleCancel}
         >
           Cancel
         </Button>
         <Button
           onClick={handleConfirm}
+          disabled={isButtonDisabled()}
         >
           Create
         </Button>

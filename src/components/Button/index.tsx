@@ -8,12 +8,14 @@ import {
 const Button: FunctionComponent<ButtonTypes> = ({
   children,
   variant,
-  onClick
+  onClick,
+  disabled
 }) => {
   return (
     <ButtonWrapper
       onClick={onClick}
       variant={variant}
+      disabled={disabled}
     >
       {children}
     </ButtonWrapper>

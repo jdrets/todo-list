@@ -5,6 +5,7 @@ import { ButtonsWrapper, FieldsWrapper } from './styles'
 
 import Button from '../../../../components/Button'
 import TextField from '../../../../components/TextField'
+import Select from '../../../../components/Select'
 import Modal from '../../../../components/Modal'
 
 const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
@@ -22,14 +23,16 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
       onClose={onClose}
     >
       <FieldsWrapper>
-        <TextField
+        <Select
           label="Status"
           name="status"
           placeholder="Task status"
           onChange={() => true}
           fullWidth
           required
-        />
+        >
+          <option value="hola">hola</option>
+        </Select>
         <TextField
           label="Priority"
           name="priority"

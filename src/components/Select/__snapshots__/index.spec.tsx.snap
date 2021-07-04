@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="sc-gtssRu dICDYb"
+  >
+    <div
+      class="sc-jSFkmK UNLJ"
+    >
+      dummy label
+       
+      <span
+        class="sc-gKAblj hqUYfj"
+      >
+        *
+      </span>
+    </div>
+    <div
+      class="sc-dlnjPT bDRKyw"
+    >
+      <select
+        class="sc-eCApGN daPEYn"
+        name="dummy name"
+        placeholder="dummy placeholder"
+        required=""
+      >
+        <option
+          value="dummy value"
+        >
+          dummy option
+        </option>
+      </select>
+      <div
+        class="sc-hKFyIo eRtPqp"
+      >
+        <span
+          class="sc-bdnylx kpuqbH"
+          color="#000000"
+          height="22px"
+          rotate="0"
+          width="22px"
+        >
+          <svg
+            class=""
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            
+            <path
+              d="M112 184l144 144 144-144"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdnylx lmgoAG"
+  >
+    <div
+      class="sc-dlnjPT iSoqbz"
+    >
+      dummy label
+       
+      <span
+        class="sc-hKFyIo blOphI"
+      >
+        *
+      </span>
+    </div>
+    <textarea
+      class="sc-gtssRu jfXXKQ"
+      name="dummy name"
+      placeholder="dummy placeholder"
+      required=""
+    >
+      dummy value
+    </textarea>
+  </div>
+</div>
+`;

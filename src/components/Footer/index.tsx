@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {
-  Wrapper,
+  Wrapper
 } from './styles'
 
 const Footer = () => (

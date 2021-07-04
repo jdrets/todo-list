@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTaskModal /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="sc-hKFyIo kcLwtf"
+  >
+    <div
+      class="sc-eCApGN bRrhpH"
+    >
+      <div
+        class="sc-jSFkmK fZfftN"
+      >
+        <h2
+          class="sc-gKAblj jhShoS"
+        />
+        <button
+          class="sc-iCoHVE eyyXYf"
+          data-testid="modal-close-button"
+        >
+          <span
+            class="sc-dlnjPT feMzXu"
+            color="#000000"
+            height="22px"
+            rotate="0"
+            width="22px"
+          >
+            <svg
+              class=""
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              
+              <path
+                d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="sc-fnVYJo gkpykG"
+      >
+        <div
+          class="sc-fujyUd gEVBzy"
+        >
+          <div
+            class="sc-iqAbSa eEwhLy"
+          >
+            Status
+             
+            <span
+              class="sc-crzoUp kwOebr"
+            >
+              *
+            </span>
+          </div>
+          <div
+            class="sc-pNWxx eZKhKZ"
+          >
+            <select
+              class="sc-kEqYlL gxXEFH"
+              name="status"
+              placeholder="Task status"
+              required=""
+            >
+              <option>
+                Select task status
+              </option>
+              <option
+                value="To do"
+              >
+                To do
+              </option>
+              <option
+                value="Doing"
+              >
+                Doing
+              </option>
+              <option
+                value="Done"
+              >
+                Done
+              </option>
+            </select>
+            <div
+              class="sc-jrsJCI hkbrwn"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M112 184l144 144 144-144"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="48"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fujyUd gEVBzy"
+        >
+          <div
+            class="sc-iqAbSa eEwhLy"
+          >
+            Priority
+             
+            <span
+              class="sc-crzoUp kwOebr"
+            >
+              *
+            </span>
+          </div>
+          <div
+            class="sc-pNWxx eZKhKZ"
+          >
+            <select
+              class="sc-kEqYlL gxXEFH"
+              name="priority"
+              placeholder="Task priority"
+              required=""
+            >
+              <option>
+                Select task priority
+              </option>
+              <option
+                value="Low"
+              >
+                Low
+              </option>
+              <option
+                value="Medium"
+              >
+                Medium
+              </option>
+              <option
+                value="High"
+              >
+                High
+              </option>
+            </select>
+            <div
+              class="sc-jrsJCI hkbrwn"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M112 184l144 144 144-144"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="48"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-dIsAE cyGWFl"
+        >
+          <div
+            class="sc-ksluoS fuxgTu"
+          >
+            Due date
+             
+          </div>
+          <input
+            class="sc-bqGHjH lljhnV"
+            name="dueDate"
+            placeholder="Due date"
+            required=""
+            type="date"
+            value=""
+          />
+        </div>
+        <div
+          class="sc-dIsAE cyGWFl"
+        >
+          <div
+            class="sc-ksluoS fuxgTu"
+          >
+            Title
+             
+            <span
+              class="sc-hBMVcZ cRlzPi"
+            >
+              *
+            </span>
+          </div>
+          <input
+            class="sc-bqGHjH lljhnV"
+            name="title"
+            placeholder="Task title"
+            required=""
+            value=""
+          />
+        </div>
+        <div
+          class="sc-dIsAE cyGWFl"
+        >
+          <div
+            class="sc-ksluoS fuxgTu"
+          >
+            Description
+             
+            <span
+              class="sc-hBMVcZ cRlzPi"
+            >
+              *
+            </span>
+          </div>
+          <textarea
+            class="sc-bqGHjH iRBTBZ"
+            name="description"
+            placeholder="Task description"
+            required=""
+          />
+        </div>
+      </div>
+      <div
+        class="sc-bdnylx fhbphs"
+      >
+        <div
+          class="sc-gtssRu dGLdKs"
+        >
+          Cancel
+        </div>
+        <div
+          class="sc-gtssRu bPCFgL"
+          disabled=""
+        >
+          Create
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

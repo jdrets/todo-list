@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useState, createContext, useEffect } from 'react'
 import _ from 'lodash'
 
-import TaskService from '../../services/taskService';
+import TaskService from '../../services/taskService'
 import { AppContextProviderTypes } from './types'
 
 export const PageContext = createContext({} as AppContextProviderTypes)

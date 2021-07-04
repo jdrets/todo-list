@@ -66,6 +66,9 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
               placeholder="Task status"
               required=""
             >
+              <option>
+                Select task status
+              </option>
               <option
                 value="To do"
               >
@@ -134,6 +137,9 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
               placeholder="Task priority"
               required=""
             >
+              <option>
+                Select task priority
+              </option>
               <option
                 value="Low"
               >
@@ -189,7 +195,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
              
           </div>
           <input
-            class="sc-bqGHjH jBPPvD"
+            class="sc-bqGHjH lljhnV"
             name="dueDate"
             placeholder="Due date"
             required=""
@@ -212,7 +218,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
             </span>
           </div>
           <input
-            class="sc-bqGHjH jBPPvD"
+            class="sc-bqGHjH lljhnV"
             name="title"
             placeholder="Task title"
             required=""
@@ -234,7 +240,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
             </span>
           </div>
           <textarea
-            class="sc-bqGHjH jRnrhX"
+            class="sc-bqGHjH iRBTBZ"
             name="description"
             placeholder="Task description"
             required=""
@@ -245,12 +251,12 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
         class="sc-bdnylx fhbphs"
       >
         <div
-          class="sc-gtssRu fNPdYB"
+          class="sc-gtssRu dGLdKs"
         >
           Cancel
         </div>
         <div
-          class="sc-gtssRu hIVKnp"
+          class="sc-gtssRu dSSfSs"
         >
           Create
         </div>

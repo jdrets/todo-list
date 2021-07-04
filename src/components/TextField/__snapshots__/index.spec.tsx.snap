@@ -17,7 +17,7 @@ exports[`<TextField /> should match with snapshot 1`] = `
       </span>
     </div>
     <textarea
-      class="sc-gtssRu biQwBR"
+      class="sc-gtssRu YlOWv"
       name="dummy name"
       placeholder="dummy placeholder"
       required=""

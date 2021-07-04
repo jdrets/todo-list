@@ -49,7 +49,7 @@ exports[`<EmptyState /> should match with snapshot 1`] = `
         Oh, task list is empty
       </div>
       <div
-        class="sc-eCApGN hEnGjL"
+        class="sc-eCApGN bZISkq"
       >
         Create task
       </div>

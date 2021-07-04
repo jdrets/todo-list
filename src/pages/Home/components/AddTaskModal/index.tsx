@@ -4,13 +4,15 @@ import { AddTaskModalType } from './types'
 import { ButtonsWrapper } from './styles'
 
 import TaskService from '../../../../services/taskService'
+import SNACKBAR from '../../../../utils/constants/snackbar'
 import Button from '../../../../components/Button'
 import Modal from '../../../../components/Modal'
 import Fields from './components/Fields'
 
 const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
   open,
-  onClose
+  onClose,
+  showSnackbar
 }) => {
   const [fields, setFields] = useState({
     title: null,
@@ -32,6 +34,8 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
       TaskService.create(fields)
     } catch (error) {
       console.log(error)
+
+      showSnackbar(SNACKBAR.TYPE.ERROR, SNACKBAR.MESSAGE.ERROR)
     }
   }
 
@@ -60,7 +64,7 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
         </Button>
         <Button
           onClick={handleConfirm}
-          disabled={isButtonDisabled()}
+          // disabled={isButtonDisabled()}
         >
           Create
         </Button>

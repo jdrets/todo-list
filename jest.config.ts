@@ -9,6 +9,9 @@ export default {
   coveragePathIgnorePatterns: [
     '/node_modules/'
   ],
+  moduleNameMapper: {
+    '^.+\\.(css|less|scss)$': 'babel-jest'
+  },
   coverageProvider: 'babel',
   coverageReporters: [
     'json',

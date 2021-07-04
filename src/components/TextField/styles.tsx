@@ -8,14 +8,15 @@ export const Wrapper = styled.div`
 `
 
 export const Input = styled.input<TextFieldTypes>`
+  background-color: white;
   border-radius: 4px;
   border: 1px solid ${theme.colors.grayLight};
+  height: ${props => props.multiline && '150px'};
   outline: none;
   padding: 12px;
+  resize: none;
   transition: 0.3s;
   width: ${props => props.fullWidth ? '100%' : 'auto'};
-  resize: none;
-  height: ${props => props.multiline && '150px'};
   
   &:hover {
     border-color: ${theme.colors.primaryColorLight};

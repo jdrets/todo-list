@@ -10,7 +10,8 @@ import AppContextProvider from '../../../../components/AppContextProvider'
 const setup = (mockData = {}) => {
   const mock = {
     open: true,
-    onClose: jest.fn()
+    onClose: jest.fn(),
+    showSnackbar: jest.fn()
   }
   return render(
     <ThemeProvider theme={theme}>

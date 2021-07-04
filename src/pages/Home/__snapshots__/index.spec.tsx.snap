@@ -6,13 +6,13 @@ exports[`<HomePage /> should match with snapshot 1`] = `
     class="sc-bdnylx jACAPs"
   >
     <section
-      class="sc-fFSRdu gyyYOp"
+      class="sc-bkbjAj idSdVz"
     >
       <div
-        class="sc-bkbjAj iaBSyG"
+        class="sc-iemXMA cafnwx"
       >
         <div
-          class="sc-dIvqjp hCGuoN"
+          class="sc-hHEjAm ljclji"
         >
           <svg
             viewBox="0 0 511.997 511.997"
@@ -47,37 +47,37 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </svg>
         </div>
         <div
-          class="sc-iemXMA UBrbn"
+          class="sc-dIvqjp dyBXTG"
         >
           Oh, task list is empty
         </div>
         <div
-          class="sc-hHEjAm difULa"
+          class="sc-dlMBXb eNSaNp"
         >
           Create task
         </div>
       </div>
     </section>
     <div
-      class="sc-kfYqjs clMPpl"
+      class="sc-fKgIGh hOIkHJ"
     >
       <div
-        class="sc-fKgIGh gzyERZ"
+        class="sc-bCwgka jtuGzK"
       >
         <div
-          class="sc-bCwgka XwutE"
+          class="sc-iwaifL eatuZH"
         >
           <h2
-            class="sc-iwaifL iSPLub"
+            class="sc-cxNIbT eYRXWh"
           >
             Add new task
           </h2>
           <button
-            class="sc-cxNIbT goquGP"
+            class="sc-lmgQde ZxUvr"
             data-testid="modal-close-button"
           >
             <span
-              class="sc-gtssRu iNbmUm"
+              class="sc-dlnjPT feMzXu"
               color="#000000"
               height="22px"
               rotate="0"
@@ -97,31 +97,34 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </button>
         </div>
         <div
-          class="sc-cBoprd hivlSc"
+          class="sc-ciSmjq dWLGon"
         >
           <div
-            class="sc-lmgQde dZOexV"
+            class="sc-iJCRLp gUJGCt"
           >
             <div
-              class="sc-bYwzba fxajpu"
+              class="sc-kLokih fUHqgp"
             >
               Status
                
               <span
-                class="sc-kLokih etQghA"
+                class="sc-iklIKw cJbkMN"
               >
                 *
               </span>
             </div>
             <div
-              class="sc-iJCRLp bIWoVi"
+              class="sc-giAqnE dVJCWV"
             >
               <select
-                class="sc-ezzayL bbctyk"
+                class="sc-bYwzba dnwpkg"
                 name="status"
                 placeholder="Task status"
                 required=""
               >
+                <option>
+                  Select task status
+                </option>
                 <option
                   value="To do"
                 >
@@ -139,10 +142,10 @@ exports[`<HomePage /> should match with snapshot 1`] = `
                 </option>
               </select>
               <div
-                class="sc-giAqnE cLvAiR"
+                class="sc-ezzayL bJvFGF"
               >
                 <span
-                  class="sc-gtssRu iNbmUm"
+                  class="sc-dlnjPT feMzXu"
                   color="#000000"
                   height="22px"
                   rotate="0"
@@ -168,28 +171,31 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-lmgQde dZOexV"
+            class="sc-iJCRLp gUJGCt"
           >
             <div
-              class="sc-bYwzba fxajpu"
+              class="sc-kLokih fUHqgp"
             >
               Priority
                
               <span
-                class="sc-kLokih etQghA"
+                class="sc-iklIKw cJbkMN"
               >
                 *
               </span>
             </div>
             <div
-              class="sc-iJCRLp bIWoVi"
+              class="sc-giAqnE dVJCWV"
             >
               <select
-                class="sc-ezzayL bbctyk"
+                class="sc-bYwzba dnwpkg"
                 name="priority"
                 placeholder="Task priority"
                 required=""
               >
+                <option>
+                  Select task priority
+                </option>
                 <option
                   value="Low"
                 >
@@ -207,10 +213,10 @@ exports[`<HomePage /> should match with snapshot 1`] = `
                 </option>
               </select>
               <div
-                class="sc-giAqnE cLvAiR"
+                class="sc-ezzayL bJvFGF"
               >
                 <span
-                  class="sc-gtssRu iNbmUm"
+                  class="sc-dlnjPT feMzXu"
                   color="#000000"
                   height="22px"
                   rotate="0"
@@ -236,16 +242,16 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             </div>
           </div>
           <div
-            class="sc-iklIKw eVhqCM"
+            class="sc-jJMGHv ejneAX"
           >
             <div
-              class="sc-hiKfjK gKjRRC"
+              class="sc-gXfWUo gLYwMz"
             >
               Due date
                
             </div>
             <input
-              class="sc-jJMGHv dGWUtF"
+              class="sc-hiKfjK ewUMKa"
               name="dueDate"
               placeholder="Due date"
               required=""
@@ -254,21 +260,21 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-iklIKw eVhqCM"
+            class="sc-jJMGHv ejneAX"
           >
             <div
-              class="sc-hiKfjK gKjRRC"
+              class="sc-gXfWUo gLYwMz"
             >
               Title
                
               <span
-                class="sc-gXfWUo ikFszC"
+                class="sc-cBoprd chvmGm"
               >
                 *
               </span>
             </div>
             <input
-              class="sc-jJMGHv dGWUtF"
+              class="sc-hiKfjK ewUMKa"
               name="title"
               placeholder="Task title"
               required=""
@@ -276,21 +282,21 @@ exports[`<HomePage /> should match with snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-iklIKw eVhqCM"
+            class="sc-jJMGHv ejneAX"
           >
             <div
-              class="sc-hiKfjK gKjRRC"
+              class="sc-gXfWUo gLYwMz"
             >
               Description
                
               <span
-                class="sc-gXfWUo ikFszC"
+                class="sc-cBoprd chvmGm"
               >
                 *
               </span>
             </div>
             <textarea
-              class="sc-jJMGHv ftAEVB"
+              class="sc-hiKfjK hxFodW"
               name="description"
               placeholder="Task description"
               required=""
@@ -298,15 +304,15 @@ exports[`<HomePage /> should match with snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-dlMBXb ceUEXI"
+          class="sc-kfYqjs dKIcQV"
         >
           <div
-            class="sc-hHEjAm buoggm"
+            class="sc-dlMBXb gAmHjx"
           >
             Cancel
           </div>
           <div
-            class="sc-hHEjAm difULa"
+            class="sc-dlMBXb eNSaNp"
           >
             Create
           </div>
@@ -314,5 +320,12 @@ exports[`<HomePage /> should match with snapshot 1`] = `
       </div>
     </div>
   </section>
+  <div
+    class="sc-gtssRu iGghyX"
+  >
+    <div
+      class="Toastify"
+    />
+  </div>
 </div>
 `;

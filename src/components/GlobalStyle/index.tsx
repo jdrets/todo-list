@@ -7,8 +7,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-  }
-  body {
     font-family: 'Roboto', sans-serif;
   }
 `

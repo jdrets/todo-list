@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import {fireEvent, render} from '@testing-library/react'
+import { fireEvent, render } from '@testing-library/react'
 
 import EmptyState from '.'
 import theme from '../../../../utils/constants/theme'

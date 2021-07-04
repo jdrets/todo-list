@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="sc-gtssRu fymrQx"
+  >
+    <div
+      class="sc-dlnjPT ealjYZ"
+    >
+      <div
+        class="sc-hKFyIo duJlJp"
+      >
+        <h2
+          class="sc-eCApGN hykQER"
+        >
+          dummy title
+        </h2>
+        <button
+          class="sc-jSFkmK bPSOCb"
+          data-testid="modal-close-button"
+        >
+          <span
+            class="sc-bdnylx kpuqbH"
+            color="#000000"
+            height="22px"
+            rotate="0"
+            width="22px"
+          >
+            <svg
+              class=""
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              
+              <path
+                d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      Modal content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdnylx lmgoAG"
+  >
+    <div
+      class="sc-dlnjPT iSoqbz"
+    >
+      dummy label
+       
+      <span
+        class="sc-hKFyIo blOphI"
+      >
+        *
+      </span>
+    </div>
+    <textarea
+      class="sc-gtssRu jfXXKQ"
+      name="dummy name"
+      placeholder="dummy placeholder"
+      required=""
+    >
+      dummy value
+    </textarea>
+  </div>
+</div>
+`;

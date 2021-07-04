@@ -1,9 +1,10 @@
 import React, { FunctionComponent } from 'react'
 
 import { AddTaskModalType } from './types'
-import { ButtonsWrapper } from './styles'
-import Button from '../../../../components/Button'
+import { ButtonsWrapper, FieldsWrapper } from './styles'
 
+import Button from '../../../../components/Button'
+import TextField from '../../../../components/TextField'
 import Modal from '../../../../components/Modal'
 
 const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
@@ -20,7 +21,42 @@ const AddTaskModal: FunctionComponent<AddTaskModalType> = ({
       open={open}
       onClose={onClose}
     >
-      asd
+      <FieldsWrapper>
+        <TextField
+          label="Status"
+          name="status"
+          placeholder="Task status"
+          onChange={() => true}
+          fullWidth
+          required
+        />
+        <TextField
+          label="Priority"
+          name="priority"
+          placeholder="Task priority"
+          onChange={() => true}
+          fullWidth
+          required
+        />
+        <TextField
+          label="Title"
+          name="title"
+          placeholder="Task title"
+          onChange={() => true}
+          fullWidth
+          required
+        />
+        <TextField
+          label="Description"
+          name="description"
+          placeholder="Task description"
+          onChange={() => true}
+          fullWidth
+          multiline
+          required
+        />
+      </FieldsWrapper>
+
       <ButtonsWrapper>
         <Button
           variant="white"

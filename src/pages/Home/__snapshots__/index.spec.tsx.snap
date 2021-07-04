@@ -68,3 +68,255 @@ exports[`<HomePage /> should match with snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`<HomePage /> should match with snapshot with tasks 1`] = `
+<div>
+  <section
+    class="sc-bdnylx jbrtdu"
+  >
+    <section
+      class="sc-hKFyIo iPQQRi"
+    >
+      <section />
+      <button
+        class="sc-eCApGN egMigi"
+      >
+        <span
+          class="sc-dlnjPT feMzXu"
+          color="#000000"
+          height="22px"
+          rotate="0"
+          width="22px"
+        >
+          <svg
+            class=""
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            
+            <path
+              d="M472 168H40a24 24 0 010-48h432a24 24 0 010 48zM392 280H120a24 24 0 010-48h272a24 24 0 010 48zM296 392h-80a24 24 0 010-48h80a24 24 0 010 48z"
+            />
+          </svg>
+        </span>
+        <span
+          class="sc-jSFkmK cFTkiz"
+        >
+          Filtros
+        </span>
+      </button>
+    </section>
+    <section
+      class="sc-dlMBXb dBPBZl"
+    >
+      <article
+        class="sc-dIsAE dMZFXm"
+      >
+        <div
+          class="sc-hBMVcZ gGQDqC"
+        >
+          <div
+            class="sc-fnVYJo juEJcL"
+          >
+            <div
+              class="sc-fFSRdu dJHAxw"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M307.72 302.27a8 8 0 01-3.72-6.75V80a48 48 0 00-48-48h0a48 48 0 00-48 48v215.52a8 8 0 01-3.71 6.74 97.51 97.51 0 00-44.19 86.07A96 96 0 00352 384a97.49 97.49 0 00-44.28-81.73zM256 112v272"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-miterlimit="10"
+                    stroke-width="32"
+                  />
+                  <circle
+                    cx="256"
+                    cy="384"
+                    r="48"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="sc-bkbjAj bMpbfs"
+            >
+              Priority: 
+              <span
+                class="sc-iemXMA fVVOhN"
+              >
+                High
+              </span>
+            </div>
+          </div>
+          <div
+            class="sc-fnVYJo juEJcL"
+          >
+            <div
+              class="sc-fFSRdu dJHAxw"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M394.23 197.56a300.43 300.43 0 00-53.37-90C301.2 61.65 249.05 32 208 32a16 16 0 00-15.48 20c13.87 53-14.88 97.07-45.31 143.72C122 234.36 96 274.27 96 320c0 88.22 71.78 160 160 160s160-71.78 160-160c0-43.3-7.32-84.49-21.77-122.44zm-105.9 221.13C278 429.69 265.05 432 256 432s-22-2.31-32.33-13.31S208 390.24 208 368c0-25.14 8.82-44.28 17.34-62.78 4.95-10.74 10-21.67 13-33.37a8 8 0 0112.49-4.51A126.48 126.48 0 01275 292c18.17 24 29 52.42 29 76 0 22.24-5.42 39.77-15.67 50.69z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="sc-bkbjAj bMpbfs"
+            >
+              Status: 
+              <span
+                class="sc-dIvqjp bRZHuS"
+              >
+                Done
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-bqGHjH ivwspb"
+        >
+          dummy title
+        </div>
+        <div
+          class="sc-ksluoS dhkFoV"
+        >
+          dummy title
+        </div>
+      </article>
+      <article
+        class="sc-dIsAE dMZFXm"
+      >
+        <div
+          class="sc-hBMVcZ gGQDqC"
+        >
+          <div
+            class="sc-fnVYJo juEJcL"
+          >
+            <div
+              class="sc-fFSRdu dJHAxw"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M307.72 302.27a8 8 0 01-3.72-6.75V80a48 48 0 00-48-48h0a48 48 0 00-48 48v215.52a8 8 0 01-3.71 6.74 97.51 97.51 0 00-44.19 86.07A96 96 0 00352 384a97.49 97.49 0 00-44.28-81.73zM256 112v272"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-miterlimit="10"
+                    stroke-width="32"
+                  />
+                  <circle
+                    cx="256"
+                    cy="384"
+                    r="48"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="sc-bkbjAj bMpbfs"
+            >
+              Priority: 
+              <span
+                class="sc-iemXMA fVVOhN"
+              >
+                High
+              </span>
+            </div>
+          </div>
+          <div
+            class="sc-fnVYJo juEJcL"
+          >
+            <div
+              class="sc-fFSRdu dJHAxw"
+            >
+              <span
+                class="sc-dlnjPT feMzXu"
+                color="#000000"
+                height="22px"
+                rotate="0"
+                width="22px"
+              >
+                <svg
+                  class=""
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                  <path
+                    d="M394.23 197.56a300.43 300.43 0 00-53.37-90C301.2 61.65 249.05 32 208 32a16 16 0 00-15.48 20c13.87 53-14.88 97.07-45.31 143.72C122 234.36 96 274.27 96 320c0 88.22 71.78 160 160 160s160-71.78 160-160c0-43.3-7.32-84.49-21.77-122.44zm-105.9 221.13C278 429.69 265.05 432 256 432s-22-2.31-32.33-13.31S208 390.24 208 368c0-25.14 8.82-44.28 17.34-62.78 4.95-10.74 10-21.67 13-33.37a8 8 0 0112.49-4.51A126.48 126.48 0 01275 292c18.17 24 29 52.42 29 76 0 22.24-5.42 39.77-15.67 50.69z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="sc-bkbjAj bMpbfs"
+            >
+              Status: 
+              <span
+                class="sc-dIvqjp bRZHuS"
+              >
+                Done
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-bqGHjH ivwspb"
+        >
+          dummy title 2
+        </div>
+        <div
+          class="sc-ksluoS dhkFoV"
+        >
+          dummy title 2
+        </div>
+      </article>
+    </section>
+  </section>
+  <div
+    class="sc-gtssRu iGghyX"
+  >
+    <div
+      class="Toastify"
+    />
+  </div>
+</div>
+`;

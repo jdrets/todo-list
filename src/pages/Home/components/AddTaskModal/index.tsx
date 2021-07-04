@@ -11,7 +11,7 @@ import Modal from '../../../../components/Modal'
 import Fields from './components/Fields'
 import withFieldsModal from '../withFieldsModal'
 
-const AddTaskModal: FunctionComponent<ModalType> = ({
+export const AddTaskModal: FunctionComponent<ModalType> = ({
   open,
   showSnackbar,
   fields,
@@ -33,8 +33,6 @@ const AddTaskModal: FunctionComponent<ModalType> = ({
       showSnackbar(SNACKBAR.TYPE.SUCCESS, SNACKBAR.MESSAGE.TASKS.SUCCESS.CREATED)
       handleCancel()
     } catch (error) {
-      console.log(error)
-
       showSnackbar(SNACKBAR.TYPE.ERROR, SNACKBAR.MESSAGE.ERROR)
     } finally {
       setFetching(false)

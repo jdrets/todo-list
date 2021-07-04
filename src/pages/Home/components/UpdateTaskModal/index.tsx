@@ -11,7 +11,7 @@ import Modal from '../../../../components/Modal'
 import Fields from './components/Fields'
 import withFieldsModal from '../withFieldsModal'
 
-const AddTaskModal: FunctionComponent<ModalType> = ({
+export const UpdateTaskModal: FunctionComponent<ModalType> = ({
   open,
   showSnackbar,
   fields,
@@ -73,11 +73,11 @@ const AddTaskModal: FunctionComponent<ModalType> = ({
           onClick={handleConfirm}
           disabled={isButtonDisabled()}
         >
-          {fetching ? 'Creating..' : 'Create'}
+          {fetching ? 'Updating..' : 'Update'}
         </Button>
       </ButtonsWrapper>
     </Modal>
   )
 }
 
-export default withFieldsModal(AddTaskModal)
+export default withFieldsModal(UpdateTaskModal)

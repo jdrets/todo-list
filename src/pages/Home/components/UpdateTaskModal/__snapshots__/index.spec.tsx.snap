@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<AddTaskModal /> should match with snapshot 1`] = `
+exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
     class="sc-hKFyIo kcLwtf"
@@ -254,10 +254,9 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
           Delete
         </div>
         <div
-          class="sc-gtssRu bPCFgL"
-          disabled=""
+          class="sc-gtssRu dSSfSs"
         >
-          Create
+          Update
         </div>
       </div>
     </div>

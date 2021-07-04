@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import { render } from '@testing-library/react'
+import {fireEvent, render} from '@testing-library/react'
 
 import FiltersBar from '.'
 import theme from '../../../../utils/constants/theme'
@@ -13,7 +13,6 @@ const setup = (mockData = {}) => {
     setFilters: jest.fn(),
     filters: {
       title: 'dummy title',
-      description: 'dummt description'
     }
   }
   return render(
@@ -30,5 +29,18 @@ describe('<FiltersBar />', () => {
     const { container } = setup()
 
     expect(container).toMatchSnapshot()
+  })
+
+  test('should call setFilters when delete button is clicked', () => {
+    const setFiltersMock = jest.fn()
+    const { getByTestId } = setup({
+      setFilters: setFiltersMock
+    })
+
+    const deleteButton = getByTestId('chip-close-button')
+
+    fireEvent.click(deleteButton)
+
+    expect(setFiltersMock).toHaveBeenCalled()
   })
 })

@@ -1,6 +1,7 @@
 import React, { FunctionComponent, useState, createContext, useEffect } from 'react'
 import _ from 'lodash'
 
+import TaskService from '../../services/taskService';
 import { AppContextProviderTypes } from './types'
 
 export const PageContext = createContext({} as AppContextProviderTypes)
@@ -8,9 +9,9 @@ export const PageContext = createContext({} as AppContextProviderTypes)
 const AppContextProvider: FunctionComponent<any> = ({ children, value = {} }) => {
   const [tasks, setTasks] = useState([])
   const [showCreateTaskModal, setShowCreateTaskModal] = useState(false)
-  const storage = JSON.parse(localStorage.getItem('tasks')) || []
 
   useEffect(() => {
+    const storage = TaskService.get()
     setTasks(storage)
   }, [])
 

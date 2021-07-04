@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match with snapshot 1`] = `
+<div>
+  <header
+    class="sc-gtssRu dokrQo"
+  >
+    <section
+      class="sc-dlnjPT dqIPfq"
+    >
+      8 Jan
+    </section>
+    <section
+      class="sc-hKFyIo eYbNZd"
+    >
+      <div
+        class="sc-eCApGN eaCnDs"
+      >
+        <h1
+          class="sc-jSFkmK dqRofX"
+        >
+          To do list
+        </h1>
+        <h2
+          class="sc-gKAblj btqBcj"
+        >
+          0
+           tasks
+        </h2>
+      </div>
+      <div
+        class="sc-iCoHVE gCTGnh"
+      >
+        <div
+          class="sc-bdnylx gcRwmt"
+        >
+          Add new
+        </div>
+      </div>
+    </section>
+  </header>
+</div>
+`;

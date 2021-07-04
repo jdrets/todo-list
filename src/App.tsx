@@ -12,6 +12,7 @@ import AppContextProvider from './components/AppContextProvider'
 import theme from './utils/constants/theme'
 
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 import HomePage from './pages/Home'
 import NotFoundPage from './pages/NotFound'
@@ -29,6 +30,7 @@ const App = () => {
             </Route>
             <Route component={NotFoundPage} />
           </Switch>
+          <Footer />
         </Router>
       </AppContextProvider>
     </ThemeProvider>

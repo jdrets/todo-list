@@ -1,4 +1,5 @@
 const TASK_CONSTANTS = {
+  STORAGE_KEY: 'tasks',
   PRIORITY: {
     HIGH: 'High',
     MEDIUM: 'Medium',

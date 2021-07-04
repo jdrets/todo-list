@@ -3,25 +3,25 @@
 exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-hKFyIo kcLwtf"
+    class="sc-fujyUd dCQxoI"
   >
     <div
-      class="sc-eCApGN bRrhpH"
+      class="sc-pNWxx QBAng"
     >
       <div
-        class="sc-jSFkmK fZfftN"
+        class="sc-jrsJCI qoAYI"
       >
         <h2
-          class="sc-gKAblj jhShoS"
+          class="sc-kEqYlL gHBfzx"
         >
           Add new task
         </h2>
         <button
-          class="sc-iCoHVE eyyXYf"
+          class="sc-iqAbSa pHoCA"
           data-testid="modal-close-button"
         >
           <span
-            class="sc-dlnjPT feMzXu"
+            class="sc-iCoHVE GwIeE"
             color="#000000"
             height="22px"
             rotate="0"
@@ -40,21 +40,111 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
           </span>
         </button>
       </div>
-      asd
-      <section
-        class="sc-bdnylx kfFAvQ"
+      <div
+        class="sc-gtssRu jMHWCo"
       >
         <div
-          class="sc-gtssRu fNPdYB"
+          class="sc-hKFyIo dQfOSN"
+        >
+          <div
+            class="sc-jSFkmK UNLJ"
+          >
+            Status
+             
+            <span
+              class="sc-gKAblj hqUYfj"
+            >
+              *
+            </span>
+          </div>
+          <input
+            class="sc-eCApGN kdwqZa"
+            name="status"
+            placeholder="Task status"
+            required=""
+            value=""
+          />
+        </div>
+        <div
+          class="sc-hKFyIo dQfOSN"
+        >
+          <div
+            class="sc-jSFkmK UNLJ"
+          >
+            Priority
+             
+            <span
+              class="sc-gKAblj hqUYfj"
+            >
+              *
+            </span>
+          </div>
+          <input
+            class="sc-eCApGN kdwqZa"
+            name="priority"
+            placeholder="Task priority"
+            required=""
+            value=""
+          />
+        </div>
+        <div
+          class="sc-hKFyIo dQfOSN"
+        >
+          <div
+            class="sc-jSFkmK UNLJ"
+          >
+            Title
+             
+            <span
+              class="sc-gKAblj hqUYfj"
+            >
+              *
+            </span>
+          </div>
+          <input
+            class="sc-eCApGN kdwqZa"
+            name="title"
+            placeholder="Task title"
+            required=""
+            value=""
+          />
+        </div>
+        <div
+          class="sc-hKFyIo dQfOSN"
+        >
+          <div
+            class="sc-jSFkmK UNLJ"
+          >
+            Description
+             
+            <span
+              class="sc-gKAblj hqUYfj"
+            >
+              *
+            </span>
+          </div>
+          <textarea
+            class="sc-eCApGN yyKwi"
+            name="description"
+            placeholder="Task description"
+            required=""
+          />
+        </div>
+      </div>
+      <div
+        class="sc-bdnylx fhbphs"
+      >
+        <div
+          class="sc-dlnjPT eEFJBJ"
         >
           Cancel
         </div>
         <div
-          class="sc-gtssRu hIVKnp"
+          class="sc-dlnjPT lRwUx"
         >
           Create
         </div>
-      </section>
+      </div>
     </div>
   </div>
 </div>

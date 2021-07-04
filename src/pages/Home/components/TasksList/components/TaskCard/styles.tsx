@@ -35,6 +35,7 @@ export const Description = styled.div`
   font-weight: 300;
   line-height: 18px;
   margin-top: 6px;
+  white-space: pre-wrap;
 
   @media(min-width: ${theme.layout.breakpoints.medium}) {
     font-size: 14px;

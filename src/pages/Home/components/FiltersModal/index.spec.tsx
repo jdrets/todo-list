@@ -11,7 +11,8 @@ const setup = (mockData = {}) => {
   const mock = {
     open: true,
     onClose: jest.fn(),
-    showSnackbar: jest.fn()
+    showSnackbar: jest.fn(),
+    applyFilters: jest.fn()
   }
   return render(
     <ThemeProvider theme={theme}>

@@ -5,5 +5,5 @@ export interface ModalType {
   open: boolean
   onClose: () => void
   applyFilters: (fields: FilterFieldsTypes) => void
-  filters: TaskTypes
+  filters?: TaskTypes
 }

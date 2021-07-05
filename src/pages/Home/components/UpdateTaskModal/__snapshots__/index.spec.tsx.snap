@@ -3,19 +3,22 @@
 exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-hKFyIo kcLwtf"
+    class="sc-hKFyIo evrwVN"
   >
     <div
-      class="sc-eCApGN bRrhpH"
+      class="sc-eCApGN yMYBc"
+    />
+    <div
+      class="sc-jSFkmK iQtCIj"
     >
       <div
-        class="sc-jSFkmK fZfftN"
+        class="sc-gKAblj bmjdUa"
       >
         <h2
-          class="sc-gKAblj dOnOaT"
+          class="sc-iCoHVE eWMcWA"
         />
         <button
-          class="sc-iCoHVE eyyXYf"
+          class="sc-fujyUd dJpoTo"
           data-testid="modal-close-button"
         >
           <span
@@ -39,27 +42,27 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
         </button>
       </div>
       <div
-        class="sc-fnVYJo gkpykG"
+        class="sc-fFSRdu htoAzM"
       >
         <div
-          class="sc-fujyUd gEVBzy"
+          class="sc-pNWxx jdNrxi"
         >
           <div
-            class="sc-iqAbSa eEwhLy"
+            class="sc-crzoUp hvGDba"
           >
             Status
              
             <span
-              class="sc-crzoUp kwOebr"
+              class="sc-dIsAE dxguxs"
             >
               *
             </span>
           </div>
           <div
-            class="sc-pNWxx eZKhKZ"
+            class="sc-jrsJCI ujEcj"
           >
             <select
-              class="sc-kEqYlL gxXEFH"
+              class="sc-iqAbSa iBUuXo"
               name="status"
               placeholder="Task status"
               required=""
@@ -81,7 +84,7 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
               </option>
             </select>
             <div
-              class="sc-jrsJCI hkbrwn"
+              class="sc-kEqYlL kBiCre"
             >
               <span
                 class="sc-dlnjPT feMzXu"
@@ -110,24 +113,24 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-fujyUd gEVBzy"
+          class="sc-pNWxx jdNrxi"
         >
           <div
-            class="sc-iqAbSa eEwhLy"
+            class="sc-crzoUp hvGDba"
           >
             Priority
              
             <span
-              class="sc-crzoUp kwOebr"
+              class="sc-dIsAE dxguxs"
             >
               *
             </span>
           </div>
           <div
-            class="sc-pNWxx eZKhKZ"
+            class="sc-jrsJCI ujEcj"
           >
             <select
-              class="sc-kEqYlL gxXEFH"
+              class="sc-iqAbSa iBUuXo"
               name="priority"
               placeholder="Task priority"
               required=""
@@ -149,7 +152,7 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
               </option>
             </select>
             <div
-              class="sc-jrsJCI hkbrwn"
+              class="sc-kEqYlL kBiCre"
             >
               <span
                 class="sc-dlnjPT feMzXu"
@@ -178,16 +181,16 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
           </div>
         </div>
         <div
-          class="sc-dIsAE cyGWFl"
+          class="sc-bqGHjH kyHjCt"
         >
           <div
-            class="sc-ksluoS fuxgTu"
+            class="sc-hBMVcZ fXfuSD"
           >
             Due date
              
           </div>
           <input
-            class="sc-bqGHjH lljhnV"
+            class="sc-ksluoS eWuGXS"
             name="dueDate"
             placeholder="Due date"
             required=""
@@ -196,21 +199,21 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-dIsAE cyGWFl"
+          class="sc-bqGHjH kyHjCt"
         >
           <div
-            class="sc-ksluoS fuxgTu"
+            class="sc-hBMVcZ fXfuSD"
           >
             Title
              
             <span
-              class="sc-hBMVcZ cRlzPi"
+              class="sc-fnVYJo bsxSSw"
             >
               *
             </span>
           </div>
           <input
-            class="sc-bqGHjH lljhnV"
+            class="sc-ksluoS eWuGXS"
             name="title"
             placeholder="Task title"
             required=""
@@ -218,21 +221,21 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-dIsAE cyGWFl"
+          class="sc-bqGHjH kyHjCt"
         >
           <div
-            class="sc-ksluoS fuxgTu"
+            class="sc-hBMVcZ fXfuSD"
           >
             Description
              
             <span
-              class="sc-hBMVcZ cRlzPi"
+              class="sc-fnVYJo bsxSSw"
             >
               *
             </span>
           </div>
           <textarea
-            class="sc-bqGHjH iRBTBZ"
+            class="sc-ksluoS VrFCC"
             name="description"
             placeholder="Task description"
             required=""

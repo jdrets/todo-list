@@ -28,6 +28,34 @@ describe('<Modal />', () => {
     expect(container).toMatchSnapshot()
   })
 
+  test('should close modal when press Escape key and modal is open', () => {
+    const onCloseMock = jest.fn()
+    setup({
+      open: true,
+      onClose: onCloseMock
+    })
+
+    fireEvent.keyDown(document, {
+      key: 'Escape'
+    })
+
+    expect(onCloseMock).toHaveBeenCalled()
+  })
+
+  test('should not close modal when press Escape key and modal is not open', () => {
+    const onCloseMock = jest.fn()
+    setup({
+      open: false,
+      onClose: onCloseMock
+    })
+
+    fireEvent.keyDown(document, {
+      key: 'Escape'
+    })
+
+    expect(onCloseMock).toHaveBeenCalledTimes(0)
+  })
+
   test('should not render when open prop is false', () => {
     const mockData = {
       open: false

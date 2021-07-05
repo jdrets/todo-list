@@ -3,21 +3,24 @@
 exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-dIsAE bdQBL"
+    class="sc-dIsAE cYHjrp"
   >
     <div
-      class="sc-bqGHjH eMJHAL"
+      class="sc-bqGHjH NeYgM"
+    />
+    <div
+      class="sc-ksluoS feNzGU"
     >
       <div
-        class="sc-ksluoS jhkpnO"
+        class="sc-hBMVcZ hfVgnf"
       >
         <h2
-          class="sc-hBMVcZ jKOCKC"
+          class="sc-fnVYJo kXZVYU"
         >
           Filters
         </h2>
         <button
-          class="sc-fnVYJo gGWFQj"
+          class="sc-fFSRdu fCPaKJ"
           data-testid="modal-close-button"
         >
           <span

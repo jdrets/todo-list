@@ -3,21 +3,24 @@
 exports[`<Modal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-gtssRu fymrQx"
+    class="sc-gtssRu fYrUmT"
   >
     <div
-      class="sc-dlnjPT ealjYZ"
+      class="sc-dlnjPT eBfcOO"
+    />
+    <div
+      class="sc-hKFyIo fwUtbv"
     >
       <div
-        class="sc-hKFyIo duJlJp"
+        class="sc-eCApGN hzcBsN"
       >
         <h2
-          class="sc-eCApGN jVGUEI"
+          class="sc-jSFkmK kvDxJQ"
         >
           dummy title
         </h2>
         <button
-          class="sc-jSFkmK bPSOCb"
+          class="sc-gKAblj doETKQ"
           data-testid="modal-close-button"
         >
           <span

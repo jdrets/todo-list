@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useEffect } from 'react'
 import { Close as CloseIcon } from 'react-ionicons'
 
 import {
@@ -6,7 +6,8 @@ import {
   Container,
   Header,
   Title,
-  CloseIconWrapper
+  CloseIconWrapper,
+  Backdrop
 } from './styles'
 import { ModalTypes } from './types'
 
@@ -15,18 +16,29 @@ const Modal: FunctionComponent<ModalTypes> = ({
   title,
   open,
   onClose
-}) => (
-  open && <Wrapper>
-    <Container>
-      <Header>
-        <Title>{title}</Title>
-        <CloseIconWrapper onClick={onClose} data-testid="modal-close-button">
-          <CloseIcon />
-        </CloseIconWrapper>
-      </Header>
-      {children}
-    </Container>
-  </Wrapper>
-)
+}) => {
+  useEffect(() => {
+    document.addEventListener('keydown', (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && open) {
+        onClose()
+      }
+    })
+  }, [open])
+
+  return (
+    open && <Wrapper>
+      <Backdrop onClick={onClose} />
+      <Container>
+        <Header>
+          <Title>{title}</Title>
+          <CloseIconWrapper onClick={onClose} data-testid="modal-close-button">
+            <CloseIcon />
+          </CloseIconWrapper>
+        </Header>
+        {children}
+      </Container>
+    </Wrapper>
+  )
+}
 
 export default Modal

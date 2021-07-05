@@ -12,7 +12,7 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
         class="sc-jSFkmK fZfftN"
       >
         <h2
-          class="sc-gKAblj jhShoS"
+          class="sc-gKAblj dOnOaT"
         />
         <button
           class="sc-iCoHVE eyyXYf"
@@ -64,9 +64,6 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
               placeholder="Task status"
               required=""
             >
-              <option>
-                Select task status
-              </option>
               <option
                 value="To do"
               >
@@ -135,9 +132,6 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
               placeholder="Task priority"
               required=""
             >
-              <option>
-                Select task priority
-              </option>
               <option
                 value="Low"
               >

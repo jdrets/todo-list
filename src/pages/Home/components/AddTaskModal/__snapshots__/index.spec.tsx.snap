@@ -12,7 +12,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
         class="sc-jSFkmK fZfftN"
       >
         <h2
-          class="sc-gKAblj jhShoS"
+          class="sc-gKAblj dOnOaT"
         >
           Add new task
         </h2>

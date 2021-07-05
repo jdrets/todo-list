@@ -39,6 +39,7 @@ export const Header = styled.div`
 export const Title = styled.h2`
   color: ${theme.colors.primaryColor};
   font-size: 24px;
+  padding-right: 24px;
 `
 
 export const CloseIconWrapper = styled.button`

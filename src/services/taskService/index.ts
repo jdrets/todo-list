@@ -39,15 +39,11 @@ class TaskService {
   }
 
   static delete (id) {
-    try {
-      const tasks = this.get()
+    const tasks = this.get()
 
-      _.remove(tasks, task => task.id === id)
+    _.remove(tasks, task => task.id === id)
 
-      localStorage.setItem(TASK_CONSTANTS.STORAGE_KEY, JSON.stringify(tasks))
-    } catch (error) {
-      throw new Error(error)
-    }
+    localStorage.setItem(TASK_CONSTANTS.STORAGE_KEY, JSON.stringify(tasks))
   }
 
   static get () {

@@ -1,13 +1,8 @@
 import { SetStateAction } from 'react'
-
-export interface FiltersTypes {
-  label: string
-  onClose: () => void
-  // TODO: add filters types
-}
+import { FilterFieldsTypes } from '../FiltersModal/components/Fields/types'
 
 export interface FiltersBarTypes {
-  filters?: any
+  filters?: FilterFieldsTypes
   setFilters: SetStateAction<any>
   openFilterModal: () => void
 }

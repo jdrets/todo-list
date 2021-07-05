@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import theme from '../../utils/constants/theme'
 
-export const SnackbarWrapper = styled.div<any>`
+export const SnackbarWrapper = styled.div`
   .Toastify__toast {
     border-radius: 32px;
     margin: 24px;

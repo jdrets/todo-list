@@ -1,12 +1,13 @@
 import React, { FunctionComponent, useEffect, useState } from 'react'
 
 import { ButtonsWrapper } from './styles'
+import { ModalType } from './types'
 
 import Fields from './components/Fields'
 import Button from '../../../../components/Button'
 import Modal from '../../../../components/Modal'
 
-const FiltersModal: FunctionComponent<any> = ({
+const FiltersModal: FunctionComponent<ModalType> = ({
   open,
   onClose,
   applyFilters,

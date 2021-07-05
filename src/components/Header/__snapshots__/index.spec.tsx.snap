@@ -8,7 +8,7 @@ exports[`<Header /> should match with snapshot 1`] = `
     <section
       class="sc-dlnjPT dqIPfq"
     >
-      4 July
+      5 July
     </section>
     <section
       class="sc-hKFyIo eYbNZd"
@@ -36,6 +36,39 @@ exports[`<Header /> should match with snapshot 1`] = `
         >
           Add new
         </div>
+      </div>
+    </section>
+  </header>
+</div>
+`;
+
+exports[`<Header /> should match with snapshot when button is not allowed 1`] = `
+<div>
+  <header
+    class="sc-gtssRu dokrQo"
+  >
+    <section
+      class="sc-dlnjPT dqIPfq"
+    >
+      5 July
+    </section>
+    <section
+      class="sc-hKFyIo eYbNZd"
+    >
+      <div
+        class="sc-eCApGN eaCnDs"
+      >
+        <h1
+          class="sc-jSFkmK dqRofX"
+        >
+          To do list
+        </h1>
+        <h2
+          class="sc-gKAblj btqBcj"
+        >
+          0
+           tasks
+        </h2>
       </div>
     </section>
   </header>

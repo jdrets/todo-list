@@ -1,5 +1,6 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
+import routeData from 'react-router';
 
 import { render, fireEvent } from '@testing-library/react'
 
@@ -19,6 +20,10 @@ const setup = (contextMock = {}) => (
 
 describe('<Header />', () => {
   test('should match with snapshot', () => {
+    jest.spyOn(routeData, 'useLocation').mockReturnValue({
+      pathname: '/'
+    })
+
     const { container } = setup()
 
     expect(container).toMatchSnapshot()
@@ -37,5 +42,15 @@ describe('<Header />', () => {
     fireEvent.click(button)
 
     expect(setShowCreateTaskModal).toHaveBeenCalled()
+  })
+
+  test('should match with snapshot when button is not allowed', () => {
+    jest.spyOn(routeData, 'useLocation').mockReturnValue({
+      pathname: '/invalid-path'
+    })
+
+    const { container } = setup()
+
+    expect(container).toMatchSnapshot()
   })
 })

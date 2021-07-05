@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { fireEvent, render } from '@testing-library/react'
 
-import { UpdateTaskModal } from '.'
+import UpdateTaskModalWithHOC, { UpdateTaskModal } from '.'
 import theme from '../../../../utils/constants/theme'
 import TASK_CONSTANTS from '../../../../utils/constants/task'
 import SNACKBAR from '../../../../utils/constants/snackbar'
@@ -111,5 +111,38 @@ describe('<UpdateTaskModal />', () => {
     const submitButton = getByText('Updating..')
 
     expect(submitButton).toBeInTheDocument()
+  })
+
+  test('should call handleChangeField when input change', () => {
+    const mock = {
+      open: true,
+      onClose: jest.fn(),
+      showSnackbar: jest.fn(),
+      fields: null,
+      handleChangeField: jest.fn(),
+      fetching: false,
+      setFetching: jest.fn(),
+      isButtonDisabled: jest.fn(),
+      handleCancel: jest.fn()
+    }
+    const { getByPlaceholderText, getByDisplayValue } = render(
+      <ThemeProvider theme={theme}>
+        <AppContextProvider>
+          <UpdateTaskModalWithHOC {...mock} />
+        </AppContextProvider>
+      </ThemeProvider>
+    )
+
+    const input = getByPlaceholderText('Task title')
+
+    fireEvent.change(input, {
+      target: {
+        value: 'new task title'
+      }
+    })
+
+    const inputChanged = getByDisplayValue('new task title')
+
+    expect(inputChanged).toBeInTheDocument()
   })
 })

@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import {fireEvent, render} from '@testing-library/react'
+import { fireEvent, render } from '@testing-library/react'
 
 import FiltersBar from '.'
 import theme from '../../../../utils/constants/theme'
@@ -12,7 +12,7 @@ const setup = (mockData = {}) => {
     openFilterModal: jest.fn(),
     setFilters: jest.fn(),
     filters: {
-      title: 'dummy title',
+      title: 'dummy title'
     }
   }
   return render(

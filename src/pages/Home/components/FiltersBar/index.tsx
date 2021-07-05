@@ -43,9 +43,9 @@ const FiltersBar: FunctionComponent<FiltersBarTypes> = ({
           ))
         }
       </section>
-      <FilterButton onClick={openFilterModal}>
+      <FilterButton onClick={openFilterModal} data-testid="open-filters-modal-button">
         <FilterIcon />
-        <FilterButtonLabel>Filtros</FilterButtonLabel>
+        <FilterButtonLabel>Filters</FilterButtonLabel>
       </FilterButton>
     </Wrapper>
   )

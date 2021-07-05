@@ -80,6 +80,7 @@ exports[`<HomePage /> should match with snapshot with tasks 1`] = `
       <section />
       <button
         class="sc-eCApGN egMigi"
+        data-testid="open-filters-modal-button"
       >
         <span
           class="sc-dlnjPT feMzXu"
@@ -102,7 +103,7 @@ exports[`<HomePage /> should match with snapshot with tasks 1`] = `
         <span
           class="sc-jSFkmK cFTkiz"
         >
-          Filtros
+          Filters
         </span>
       </button>
     </section>

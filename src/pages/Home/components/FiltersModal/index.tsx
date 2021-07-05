@@ -13,7 +13,6 @@ const FiltersModal: FunctionComponent<any> = ({
   filters
 }) => {
   const [fields, setFields] = useState({})
-  // const { updateContextTasks } = useContext(PageContext)
 
   const handleCancel = () => {
     setFields(null)

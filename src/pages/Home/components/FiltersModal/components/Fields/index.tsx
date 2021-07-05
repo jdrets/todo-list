@@ -6,7 +6,7 @@ import TextField from '../../../../../../components/TextField'
 import { FieldsWrapper } from './styles'
 import { FieldsTypes } from './types'
 
-const Fields: FunctionComponent<any> = ({ handleChangeField, fields }) => (
+const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField, fields }) => (
   <FieldsWrapper>
     <TextField
       label="Title"

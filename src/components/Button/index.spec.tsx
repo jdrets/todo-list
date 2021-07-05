@@ -38,4 +38,12 @@ describe('<Button />', () => {
 
     expect(onClickMock).toHaveBeenCalled()
   })
+
+  test('should render disable button', () => {
+    const { container } = setup({
+      disabled: true
+    })
+
+    expect(container).toMatchSnapshot()
+  })
 })

@@ -9,3 +9,14 @@ exports[`<Button /> should match with snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`<Button /> should render disable button 1`] = `
+<div>
+  <div
+    class="sc-bdnylx drddMu"
+    disabled=""
+  >
+    Button
+  </div>
+</div>
+`;

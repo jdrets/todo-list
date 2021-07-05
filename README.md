@@ -13,5 +13,7 @@ I created a to do list app for interview challenge. This app was created in Reac
 
 # App information
 
+
 This app use local storage for save todo list data.
 
+For run app tests execute command: `npm run test`

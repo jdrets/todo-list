@@ -4,6 +4,7 @@ exports[`<Modal /> should match with snapshot 1`] = `
 <div>
   <div
     class="sc-gtssRu iYYxEK"
+    style="opacity: 1;"
   >
     <div
       class="sc-dlnjPT eBfcOO"

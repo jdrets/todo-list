@@ -1,5 +1,6 @@
 import React, { FunctionComponent, useEffect } from 'react'
 import { Close as CloseIcon } from 'react-ionicons'
+import { useSpring } from 'react-spring'
 
 import {
   Wrapper,
@@ -17,6 +18,8 @@ const Modal: FunctionComponent<ModalTypes> = ({
   open,
   onClose
 }) => {
+  const animation = useSpring({ opacity: open ? 1 : 0 })
+
   useEffect(() => {
     document.addEventListener('keydown', (event: KeyboardEvent) => {
       if (event.key === 'Escape' && open) {
@@ -26,7 +29,7 @@ const Modal: FunctionComponent<ModalTypes> = ({
   }, [open])
 
   return (
-    open && <Wrapper>
+    open && <Wrapper style={animation}>
       <Backdrop onClick={onClose} />
       <Container>
         <Header>

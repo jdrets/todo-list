@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { animated } from 'react-spring'
 
 import theme from '../../utils/constants/theme'
 
-export const Wrapper = styled.div<any>`
+export const Wrapper = animated(styled.div<any>`
   align-items: center;
   display: flex;
   height: 100vh;
@@ -12,7 +13,7 @@ export const Wrapper = styled.div<any>`
   top: 0;
   width: 100%;
   z-index: 3;
-`
+`)
 
 export const Backdrop = styled.div<any>`
   background-color: rgba(0, 0, 0, 0.2);

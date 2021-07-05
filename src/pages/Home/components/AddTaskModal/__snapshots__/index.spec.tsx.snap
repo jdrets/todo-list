@@ -4,6 +4,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
     class="sc-hKFyIo wATEA"
+    style="opacity: 1;"
   >
     <div
       class="sc-eCApGN yMYBc"

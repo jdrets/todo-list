@@ -4,6 +4,7 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
     class="sc-eCApGN gtioIE"
+    style="opacity: 1;"
   >
     <div
       class="sc-jSFkmK jYPRRg"

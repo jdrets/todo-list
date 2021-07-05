@@ -3,19 +3,19 @@
 exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-dIsAE cYHjrp"
+    class="sc-dIsAE yLbxg"
   >
     <div
       class="sc-bqGHjH NeYgM"
     />
     <div
-      class="sc-ksluoS feNzGU"
+      class="sc-ksluoS iXsbDj"
     >
       <div
         class="sc-hBMVcZ hfVgnf"
       >
         <h2
-          class="sc-fnVYJo kXZVYU"
+          class="sc-fnVYJo gWVvRH"
         >
           Filters
         </h2>

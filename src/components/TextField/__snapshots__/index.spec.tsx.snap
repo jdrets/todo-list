@@ -18,6 +18,7 @@ exports[`<TextField /> should match with snapshot 1`] = `
     </div>
     <textarea
       class="sc-gtssRu YlOWv"
+      maxlength="60"
       name="dummy name"
       placeholder="dummy placeholder"
       required=""

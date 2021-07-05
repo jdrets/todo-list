@@ -3,19 +3,19 @@
 exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-hKFyIo evrwVN"
+    class="sc-hKFyIo wATEA"
   >
     <div
       class="sc-eCApGN yMYBc"
     />
     <div
-      class="sc-jSFkmK iQtCIj"
+      class="sc-jSFkmK hryZxw"
     >
       <div
         class="sc-gKAblj bmjdUa"
       >
         <h2
-          class="sc-iCoHVE eWMcWA"
+          class="sc-iCoHVE cQVoUz"
         >
           Add new task
         </h2>
@@ -222,6 +222,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
           </div>
           <input
             class="sc-ksluoS eWuGXS"
+            maxlength="40"
             name="title"
             placeholder="Task title"
             required=""

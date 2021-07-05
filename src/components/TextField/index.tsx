@@ -17,7 +17,8 @@ const TextField: FunctionComponent<TextFieldTypes> = ({
   name,
   required,
   multiline,
-  type
+  type,
+  maxLength
 }) => (
   <Wrapper>
     <Label>
@@ -32,6 +33,7 @@ const TextField: FunctionComponent<TextFieldTypes> = ({
       multiline={multiline}
       type={type}
       name={name}
+      maxLength={maxLength}
       required
     />
   </Wrapper>

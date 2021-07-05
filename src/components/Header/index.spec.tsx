@@ -1,6 +1,6 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import routeData from 'react-router';
+import routeData from 'react-router'
 
 import { render, fireEvent } from '@testing-library/react'
 

@@ -200,7 +200,7 @@ exports[`<HomePage /> should match with snapshot with tasks 1`] = `
           </div>
         </div>
         <div
-          class="sc-bqGHjH ivwspb"
+          class="sc-bqGHjH jzhLfY"
         >
           dummy title
         </div>
@@ -300,7 +300,7 @@ exports[`<HomePage /> should match with snapshot with tasks 1`] = `
           </div>
         </div>
         <div
-          class="sc-bqGHjH ivwspb"
+          class="sc-bqGHjH jzhLfY"
         >
           dummy title 2
         </div>

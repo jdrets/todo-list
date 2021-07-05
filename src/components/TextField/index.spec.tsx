@@ -18,6 +18,7 @@ const setup = (mockData = {}) => {
         name="dummy name"
         required
         multiline
+        maxLength={60}
         {...mockData}
       />
     </ThemeProvider>

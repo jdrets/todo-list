@@ -3,19 +3,19 @@
 exports[`<Modal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-gtssRu fYrUmT"
+    class="sc-gtssRu iYYxEK"
   >
     <div
       class="sc-dlnjPT eBfcOO"
     />
     <div
-      class="sc-hKFyIo fwUtbv"
+      class="sc-hKFyIo fCOeYs"
     >
       <div
         class="sc-eCApGN hzcBsN"
       >
         <h2
-          class="sc-jSFkmK kvDxJQ"
+          class="sc-jSFkmK fZIlcf"
         >
           dummy title
         </h2>

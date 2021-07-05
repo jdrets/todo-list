@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useContext } from 'react'
 
 import { ModalType } from './types'
-import { ButtonsWrapper } from './styles'
+import { ButtonsWrapper, FieldsWrapper } from './styles'
 
 import TaskService from '../../../../services/taskService'
 import SNACKBAR from '../../../../utils/constants/snackbar'
@@ -61,7 +61,9 @@ export const UpdateTaskModal: FunctionComponent<ModalType> = ({
       open={open}
       onClose={handleCancel}
     >
-      <Fields fields={fields} handleChangeField={handleChangeField} />
+      <FieldsWrapper>
+        <Fields fields={fields} handleChangeField={handleChangeField} />
+      </FieldsWrapper>
       <ButtonsWrapper>
         <Button
           onClick={handleDelete}

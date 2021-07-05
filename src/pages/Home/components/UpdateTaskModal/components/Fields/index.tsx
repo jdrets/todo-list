@@ -46,6 +46,7 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField, fields }) =
     <TextField
       label="Title"
       name="title"
+      maxLength={40}
       placeholder="Task title"
       onChange={handleChangeField}
       value={fields?.title}

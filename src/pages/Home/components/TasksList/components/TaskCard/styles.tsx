@@ -23,6 +23,7 @@ export const Title = styled.div`
   font-size: 18px;
   font-weight: 500;
   margin-top: 8px;
+  word-break: break-word;
   
   @media(min-width: ${theme.layout.breakpoints.medium}) {
     font-size: 24px;

@@ -11,6 +11,7 @@ export const Wrapper = styled.div<any>`
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
 `
 
 export const Backdrop = styled.div<any>`
@@ -22,7 +23,7 @@ export const Backdrop = styled.div<any>`
 
 export const Container = styled.div`
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
   padding: 24px;
   position: relative;
   width: 100%;
@@ -31,6 +32,8 @@ export const Container = styled.div`
     border-radius: 12px;
     height: auto;
     min-width: 350px;
+    max-width: 90%;
+    min-height: auto;
     width: auto;
   }
 `
@@ -46,6 +49,7 @@ export const Title = styled.h2`
   color: ${theme.colors.primaryColor};
   font-size: 24px;
   padding-right: 24px;
+  word-break: break-word;
 `
 
 export const CloseIconWrapper = styled.button`

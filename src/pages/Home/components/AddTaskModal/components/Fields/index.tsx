@@ -51,6 +51,7 @@ const Fields: FunctionComponent<FieldsTypes> = ({ handleChangeField, fields }) =
       placeholder="Task title"
       onChange={handleChangeField}
       value={fields?.title}
+      maxLength={40}
       fullWidth
       required
     />

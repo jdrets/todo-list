@@ -8,4 +8,5 @@ export interface TextFieldTypes {
   required?: boolean
   multiline?: boolean
   type?: string
+  maxLength?: number
 }

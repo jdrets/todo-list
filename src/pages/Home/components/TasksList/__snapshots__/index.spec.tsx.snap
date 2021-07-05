@@ -95,7 +95,7 @@ exports[`<TasksList /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-jSFkmK kFRjrD"
+        class="sc-jSFkmK kWjyRo"
       >
         dummy title
       </div>
@@ -195,7 +195,7 @@ exports[`<TasksList /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-jSFkmK kFRjrD"
+        class="sc-jSFkmK kWjyRo"
       >
         dummy title
       </div>

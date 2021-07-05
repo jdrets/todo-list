@@ -3,26 +3,26 @@
 exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-hKFyIo evrwVN"
+    class="sc-eCApGN gtioIE"
   >
     <div
-      class="sc-eCApGN yMYBc"
+      class="sc-jSFkmK jYPRRg"
     />
     <div
-      class="sc-jSFkmK iQtCIj"
+      class="sc-gKAblj ldgcWP"
     >
       <div
-        class="sc-gKAblj bmjdUa"
+        class="sc-iCoHVE dLETTR"
       >
         <h2
-          class="sc-iCoHVE eWMcWA"
+          class="sc-fujyUd bzJWuo"
         />
         <button
-          class="sc-fujyUd dJpoTo"
+          class="sc-pNWxx gGjOII"
           data-testid="modal-close-button"
         >
           <span
-            class="sc-dlnjPT feMzXu"
+            class="sc-hKFyIo jqsNzg"
             color="#000000"
             height="22px"
             rotate="0"
@@ -42,216 +42,221 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
         </button>
       </div>
       <div
-        class="sc-fFSRdu htoAzM"
+        class="sc-bdnylx idgCNE"
       >
         <div
-          class="sc-pNWxx jdNrxi"
+          class="sc-bkbjAj fZamRe"
         >
           <div
-            class="sc-crzoUp hvGDba"
+            class="sc-jrsJCI iijGrY"
           >
-            Status
-             
-            <span
-              class="sc-dIsAE dxguxs"
-            >
-              *
-            </span>
-          </div>
-          <div
-            class="sc-jrsJCI ujEcj"
-          >
-            <select
-              class="sc-iqAbSa iBUuXo"
-              name="status"
-              placeholder="Task status"
-              required=""
-            >
-              <option
-                value="To do"
-              >
-                To do
-              </option>
-              <option
-                value="Doing"
-              >
-                Doing
-              </option>
-              <option
-                value="Done"
-              >
-                Done
-              </option>
-            </select>
             <div
-              class="sc-kEqYlL kBiCre"
+              class="sc-dIsAE eUzOep"
             >
+              Status
+               
               <span
-                class="sc-dlnjPT feMzXu"
-                color="#000000"
-                height="22px"
-                rotate="0"
-                width="22px"
+                class="sc-bqGHjH byJPyk"
               >
-                <svg
-                  class=""
-                  viewBox="0 0 512 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  
-                  <path
-                    d="M112 184l144 144 144-144"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="48"
-                  />
-                </svg>
+                *
               </span>
             </div>
-          </div>
-        </div>
-        <div
-          class="sc-pNWxx jdNrxi"
-        >
-          <div
-            class="sc-crzoUp hvGDba"
-          >
-            Priority
-             
-            <span
-              class="sc-dIsAE dxguxs"
-            >
-              *
-            </span>
-          </div>
-          <div
-            class="sc-jrsJCI ujEcj"
-          >
-            <select
-              class="sc-iqAbSa iBUuXo"
-              name="priority"
-              placeholder="Task priority"
-              required=""
-            >
-              <option
-                value="Low"
-              >
-                Low
-              </option>
-              <option
-                value="Medium"
-              >
-                Medium
-              </option>
-              <option
-                value="High"
-              >
-                High
-              </option>
-            </select>
             <div
-              class="sc-kEqYlL kBiCre"
+              class="sc-kEqYlL eMgRse"
             >
-              <span
-                class="sc-dlnjPT feMzXu"
-                color="#000000"
-                height="22px"
-                rotate="0"
-                width="22px"
+              <select
+                class="sc-crzoUp emEcng"
+                name="status"
+                placeholder="Task status"
+                required=""
               >
-                <svg
-                  class=""
-                  viewBox="0 0 512 512"
-                  xmlns="http://www.w3.org/2000/svg"
+                <option
+                  value="To do"
                 >
-                  
-                  <path
-                    d="M112 184l144 144 144-144"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="48"
-                  />
-                </svg>
-              </span>
+                  To do
+                </option>
+                <option
+                  value="Doing"
+                >
+                  Doing
+                </option>
+                <option
+                  value="Done"
+                >
+                  Done
+                </option>
+              </select>
+              <div
+                class="sc-iqAbSa ixJbnJ"
+              >
+                <span
+                  class="sc-hKFyIo jqsNzg"
+                  color="#000000"
+                  height="22px"
+                  rotate="0"
+                  width="22px"
+                >
+                  <svg
+                    class=""
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="48"
+                    />
+                  </svg>
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          class="sc-bqGHjH kyHjCt"
-        >
           <div
-            class="sc-hBMVcZ fXfuSD"
+            class="sc-jrsJCI iijGrY"
           >
-            Due date
-             
-          </div>
-          <input
-            class="sc-ksluoS eWuGXS"
-            name="dueDate"
-            placeholder="Due date"
-            required=""
-            type="date"
-            value=""
-          />
-        </div>
-        <div
-          class="sc-bqGHjH kyHjCt"
-        >
-          <div
-            class="sc-hBMVcZ fXfuSD"
-          >
-            Title
-             
-            <span
-              class="sc-fnVYJo bsxSSw"
+            <div
+              class="sc-dIsAE eUzOep"
             >
-              *
-            </span>
-          </div>
-          <input
-            class="sc-ksluoS eWuGXS"
-            name="title"
-            placeholder="Task title"
-            required=""
-            value=""
-          />
-        </div>
-        <div
-          class="sc-bqGHjH kyHjCt"
-        >
-          <div
-            class="sc-hBMVcZ fXfuSD"
-          >
-            Description
-             
-            <span
-              class="sc-fnVYJo bsxSSw"
+              Priority
+               
+              <span
+                class="sc-bqGHjH byJPyk"
+              >
+                *
+              </span>
+            </div>
+            <div
+              class="sc-kEqYlL eMgRse"
             >
-              *
-            </span>
+              <select
+                class="sc-crzoUp emEcng"
+                name="priority"
+                placeholder="Task priority"
+                required=""
+              >
+                <option
+                  value="Low"
+                >
+                  Low
+                </option>
+                <option
+                  value="Medium"
+                >
+                  Medium
+                </option>
+                <option
+                  value="High"
+                >
+                  High
+                </option>
+              </select>
+              <div
+                class="sc-iqAbSa ixJbnJ"
+              >
+                <span
+                  class="sc-hKFyIo jqsNzg"
+                  color="#000000"
+                  height="22px"
+                  rotate="0"
+                  width="22px"
+                >
+                  <svg
+                    class=""
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+                    <path
+                      d="M112 184l144 144 144-144"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="48"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
           </div>
-          <textarea
-            class="sc-ksluoS VrFCC"
-            name="description"
-            placeholder="Task description"
-            required=""
-          />
+          <div
+            class="sc-ksluoS jbumci"
+          >
+            <div
+              class="sc-fnVYJo jiZLPd"
+            >
+              Due date
+               
+            </div>
+            <input
+              class="sc-hBMVcZ gemamL"
+              name="dueDate"
+              placeholder="Due date"
+              required=""
+              type="date"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-ksluoS jbumci"
+          >
+            <div
+              class="sc-fnVYJo jiZLPd"
+            >
+              Title
+               
+              <span
+                class="sc-fFSRdu hUCqQS"
+              >
+                *
+              </span>
+            </div>
+            <input
+              class="sc-hBMVcZ gemamL"
+              maxlength="40"
+              name="title"
+              placeholder="Task title"
+              required=""
+              value=""
+            />
+          </div>
+          <div
+            class="sc-ksluoS jbumci"
+          >
+            <div
+              class="sc-fnVYJo jiZLPd"
+            >
+              Description
+               
+              <span
+                class="sc-fFSRdu hUCqQS"
+              >
+                *
+              </span>
+            </div>
+            <textarea
+              class="sc-hBMVcZ jGCCBT"
+              name="description"
+              placeholder="Task description"
+              required=""
+            />
+          </div>
         </div>
       </div>
       <div
-        class="sc-bdnylx fhbphs"
+        class="sc-gtssRu ckRYdX"
       >
         <div
-          class="sc-gtssRu ivXUmL"
+          class="sc-dlnjPT edIQpD"
         >
           Delete
         </div>
         <div
-          class="sc-gtssRu dSSfSs"
+          class="sc-dlnjPT cZYyU"
         >
           Update
         </div>

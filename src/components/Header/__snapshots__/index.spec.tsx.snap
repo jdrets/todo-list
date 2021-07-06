@@ -8,7 +8,7 @@ exports[`<Header /> should match with snapshot 1`] = `
     <section
       class="sc-dlnjPT dqIPfq"
     >
-      5 July
+      6 July
     </section>
     <section
       class="sc-hKFyIo eYbNZd"
@@ -50,7 +50,7 @@ exports[`<Header /> should match with snapshot when button is not allowed 1`] = 
     <section
       class="sc-dlnjPT dqIPfq"
     >
-      5 July
+      6 July
     </section>
     <section
       class="sc-hKFyIo eYbNZd"

@@ -3,7 +3,7 @@
 exports[`<AddTaskModal /> should match with snapshot 1`] = `
 <div>
   <div
-    class="sc-hKFyIo wATEA"
+    class="sc-hKFyIo ibwPYb"
     style="opacity: 1;"
   >
     <div
@@ -253,7 +253,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sc-bdnylx fhbphs"
+        class="sc-bdnylx dUmvNJ"
       >
         <div
           class="sc-gtssRu dGLdKs"

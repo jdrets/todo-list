@@ -12,16 +12,17 @@ export const FieldsWrapper = styled.div`
 
 export const ButtonsWrapper = styled.div`
   align-items: center;
-  bottom: 0;
+  background-color: white;
+  bottom: 32px;
   display: flex;
   justify-content: space-between;
   left: 0;
-  padding: 24px;
+  padding: 0 24px 0 24px;
   position: absolute;
   width: 100%;
-  background-color: white;
   
   @media (min-width: ${theme.layout.breakpoints.medium}) {
+    bottom: 0;
     margin-top: 24px;
     padding: 0;
     position: inherit;

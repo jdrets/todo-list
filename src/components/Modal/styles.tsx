@@ -6,7 +6,7 @@ import theme from '../../utils/constants/theme'
 export const Wrapper = animated(styled.div<any>`
   align-items: center;
   display: flex;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   left: 0;
   position: fixed;

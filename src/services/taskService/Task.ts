@@ -3,14 +3,16 @@ import TASK_CONSTANTS from '../../utils/constants/task'
 
 class Task implements TaskTypes {
   id: number;
+  orderId: number;
   description: string;
   priority: string;
   status: string;
   title: string;
   dueDate?: string;
 
-  constructor (id, title, description, status, priority, dueDate) {
+  constructor (id, orderId, title, description, status, priority, dueDate) {
     this.id = id
+    this.orderId = orderId
     this.title = title
     this.status = status
     this.priority = priority

@@ -11,6 +11,7 @@ exports[`<Modal /> should match with snapshot 1`] = `
     />
     <div
       class="sc-hKFyIo fCOeYs"
+      data-testid="modal-container"
     >
       <div
         class="sc-eCApGN hzcBsN"

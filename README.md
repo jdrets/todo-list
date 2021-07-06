@@ -19,4 +19,6 @@ You can check productive version from here: www.todolist.juliandrets.com
 
 This app use local storage for save todo list data.
 
-For run app tests execute command: `npm run test`
+For run app unit tests execute command: `npm run test`
+
+For run app e2e tests execute command: `npm run start` and `npm run test-e2e` simultaneously

@@ -16,7 +16,7 @@ const withSnackbar = (BaseComponent) => {
     return (
       <>
         <BaseComponent {...props} showSnackbar={showSnackbar} />
-        <SnackbarWrapper>
+        <SnackbarWrapper data-testid="snackbar">
           <ToastContainer
             position="bottom-center"
             hideProgressBar

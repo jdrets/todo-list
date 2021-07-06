@@ -6,9 +6,11 @@
     "preserveConstEnums": true,
     "removeComments": true,
     "sourceMap": true,
+    "lib": ["es6", "dom", "es2017"],
     "target": "es5",
     "esModuleInterop": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "types": ["node", "jest", "@testing-library/jest-dom"]
   },
   "include": [
     "src/index.tsx",

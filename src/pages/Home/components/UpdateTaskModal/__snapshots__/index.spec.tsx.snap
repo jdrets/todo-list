@@ -11,6 +11,7 @@ exports[`<UpdateTaskModal /> should match with snapshot 1`] = `
     />
     <div
       class="sc-gKAblj ldgcWP"
+      data-testid="modal-container"
     >
       <div
         class="sc-iCoHVE dLETTR"

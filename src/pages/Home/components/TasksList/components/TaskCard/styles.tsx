@@ -2,9 +2,11 @@ import styled from 'styled-components'
 
 import theme from '../../../../../../utils/constants/theme'
 
-export const Wrapper = styled.article`
+export const Wrapper = styled.article<any>`
+  background-color: white;
   border-radius: 6px;
-  border: 1px solid ${theme.colors.grayLight};
+  border: 1px solid;
+  border-color: ${props => props.isDragging ? theme.colors.primaryColor : theme.colors.grayLight};
   cursor: pointer;
   padding: 16px;
   transition: border-color 0.3s;

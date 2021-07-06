@@ -10,4 +10,5 @@ export interface TaskTypes {
 export interface TaskCardTypes {
   task: TaskTypes,
   setSelectedTask: (task: TaskTypes) => void
+  isDragging?: boolean
 }

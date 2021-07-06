@@ -10,14 +10,15 @@ import List from './components/List'
 
 const TaskCard: FunctionComponent<TaskCardTypes> = ({
   task,
-  setSelectedTask
+  setSelectedTask,
+  isDragging
 }) => {
   const handleClick = () => {
     setSelectedTask(task)
   }
 
   return (
-    <Wrapper onClick={handleClick}>
+    <Wrapper onClick={handleClick} isDragging={isDragging}>
       <List status={task.status} priority={task.priority} dueDate={task.dueDate} />
       <Title>{task.title}</Title>
       <Description>{task.description}</Description>

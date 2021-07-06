@@ -4,6 +4,7 @@ describe('Task', () => {
   test('should instantiate correctly Task model', () => {
     const task = new Task(
       1,
+      1,
       'title dummy',
       'dummy desc',
       'To do',
@@ -16,10 +17,10 @@ describe('Task', () => {
 
   test('should throw error when no-nulleable fields they are null', () => {
     const testValues = [
-      { id: 1, title: null, description: 'dummy', status: 'Doing', priority: 'High', dueDate: null },
-      { id: 1, title: 'title', description: null, status: 'Doing', priority: 'High', dueDate: null },
-      { id: 1, title: 'title', description: 'dummy', status: null, priority: 'High', dueDate: null },
-      { id: 1, title: 'title', description: 'dummy', status: 'Doing', priority: null, dueDate: null }
+      { id: 1, orderId: 1, title: null, description: 'dummy', status: 'Doing', priority: 'High', dueDate: null },
+      { id: 1, orderId: 2, title: 'title', description: null, status: 'Doing', priority: 'High', dueDate: null },
+      { id: 1, orderId: 3, title: 'title', description: 'dummy', status: null, priority: 'High', dueDate: null },
+      { id: 1, orderId: 3, title: 'title', description: 'dummy', status: 'Doing', priority: null, dueDate: null }
     ]
 
     testValues.forEach(test => {
@@ -27,6 +28,7 @@ describe('Task', () => {
         // eslint-disable-next-line no-new
         new Task(
           test.id,
+          test.orderId,
           test.title,
           test.description,
           test.status,
@@ -45,6 +47,7 @@ describe('Task', () => {
       // eslint-disable-next-line no-new
       new Task(
         1,
+        1,
         'title dummy',
         'dummy desc',
         'INVALID STATUS',
@@ -61,6 +64,7 @@ describe('Task', () => {
     try {
       // eslint-disable-next-line no-new
       new Task(
+        1,
         1,
         'title dummy',
         'dummy desc',

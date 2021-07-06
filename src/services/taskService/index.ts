@@ -3,13 +3,15 @@ import Task from './Task'
 
 import TASK_CONSTANTS from '../../utils/constants/task'
 import getLastId from '../../utils/functions/getLastTaskId'
+import getLastTaskOrderId from '../../utils/functions/getLastTaskOrderId'
 
 class TaskService {
   static create ({ title, description, status, priority, dueDate }) {
     try {
       const tasks = this.get()
       const id = getLastId(tasks) + 1
-      const newTask = new Task(id, title, description, status, priority, dueDate)
+      const orderId = getLastTaskOrderId(tasks) + 1
+      const newTask = new Task(id, orderId, title, description, status, priority, dueDate)
 
       tasks.push(newTask)
 
@@ -20,10 +22,10 @@ class TaskService {
   }
 
   static update (task) {
-    const { id, title, description, status, priority, dueDate } = task
+    const { id, orderId, title, description, status, priority, dueDate } = task
 
     try {
-      const updatedTask = new Task(id, title, description, status, priority, dueDate)
+      const updatedTask = new Task(id, orderId, title, description, status, priority, dueDate)
       const tasks = this.get()
       const taskIndex = tasks.findIndex(task => task.id === id)
       const updatedTasks = _.clone(tasks)
@@ -48,7 +50,20 @@ class TaskService {
 
   static get () {
     const tasks = JSON.parse(localStorage.getItem(TASK_CONSTANTS.STORAGE_KEY)) || []
-    return _.orderBy(tasks, 'id', 'desc')
+    return _.orderBy(tasks, 'orderId', 'asc')
+  }
+
+  static updateTasks (tasks) {
+    const updatedTasks = []
+
+    tasks.forEach((task, index) => {
+      updatedTasks.push({
+        ...task,
+        orderId: index + 1
+      })
+    })
+
+    localStorage.setItem(TASK_CONSTANTS.STORAGE_KEY, JSON.stringify(updatedTasks))
   }
 
   static filter (filters) {

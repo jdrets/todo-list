@@ -14,7 +14,7 @@ const FeedbackState: FunctionComponent<FeedbackStateTypes> = ({
   button
 }) => {
   return (
-    <Wrapper>
+    <Wrapper data-testid="empty-state">
       <Container>
         <IllustrationWrapper>{illustration}</IllustrationWrapper>
         <TitleWrapper>{title}</TitleWrapper>

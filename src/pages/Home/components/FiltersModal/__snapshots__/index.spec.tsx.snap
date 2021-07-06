@@ -11,6 +11,7 @@ exports[`<AddTaskModal /> should match with snapshot 1`] = `
     />
     <div
       class="sc-ksluoS iXsbDj"
+      data-testid="modal-container"
     >
       <div
         class="sc-hBMVcZ hfVgnf"

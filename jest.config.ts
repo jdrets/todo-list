@@ -20,7 +20,8 @@ export default {
     'clover'
   ],
   testPathIgnorePatterns: [
-    '/node_modules/'
+    '/node_modules/',
+    '/cypress/'
   ],
   setupFilesAfterEnv: [
     '<rootDir>/jest.setup.ts'

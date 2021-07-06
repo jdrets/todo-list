@@ -31,7 +31,7 @@ const Modal: FunctionComponent<ModalTypes> = ({
   return (
     open && <Wrapper style={animation}>
       <Backdrop onClick={onClose} />
-      <Container>
+      <Container data-testid="modal-container">
         <Header>
           <Title>{title}</Title>
           <CloseIconWrapper onClick={onClose} data-testid="modal-close-button">

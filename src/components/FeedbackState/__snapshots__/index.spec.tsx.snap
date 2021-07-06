@@ -4,6 +4,7 @@ exports[`<FeedbackState /> should match with snapshot 1`] = `
 <div>
   <section
     class="sc-bdnylx dOCMpk"
+    data-testid="empty-state"
   >
     <div
       class="sc-gtssRu ljqUJc"

@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { APP_PORT } = require('./config')
 
 module.exports = {
   entry: "./src/index.tsx",
@@ -40,6 +41,6 @@ module.exports = {
     historyApiFallback: true,
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000,
+    port: APP_PORT,
   },
 };
